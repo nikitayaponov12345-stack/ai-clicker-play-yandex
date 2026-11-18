@@ -1,0 +1,13 @@
+{
+  "disableLoadingLogo": true,
+  "sendAnalyticsEvents": false,
+  "advertisement": {
+    "interstitial": {
+      "placements": [{ "id": "release" }, { "id": "break" }, { "id": "window" }]
+    },
+    "rewarded": {
+      "placements": [{ "id": "offline_x2" }, { "id": "boost" }, { "id": "release_bonus" }, { "id": "investor_both" }]
+    }
+  },
+  "payments": [{ "id": "no_ads" }, { "id": "income_x2" }, { "id": "time_skip_4h" }]
+}

@@ -1,0 +1,791 @@
+{
+  "meta": {
+    "lang": "es",
+    "name": "Español"
+  },
+  "format": {
+    "currency": "$",
+    "suffixes": [
+      "",
+      " mil",
+      " M",
+      " mil M",
+      " B",
+      " mil B",
+      " T",
+      " mil T",
+      " C",
+      " mil C",
+      " Q",
+      " mil Q"
+    ],
+    "sec": "{n} s",
+    "min": "{n} min",
+    "hour": "{n} h",
+    "day": "{n} d",
+    "decimal": ".",
+    "group": " ",
+    "watts": [
+      "W",
+      "kW",
+      "MW",
+      "GW",
+      "TW"
+    ],
+    "money": "{c}{n}",
+    "profit": "{c}{n}"
+  },
+  "ui": {
+    "title": "¡Solo una GPU más!",
+    "profit": "Ganancia: {amount}",
+    "tokensPerSec": "{n} tok/s",
+    "moneyPerSec": "+{amount}/s",
+    "tps": "tok/s",
+    "dollarsPerSec": "Dólares por segundo: {amount}",
+    "clickGain": "+{amount}",
+    "windowMult": "×{n}",
+    "chipAria": "Hacer clic en el chip para procesar una consulta",
+    "speaker": "Smith",
+    "upgrades": "Mejoras",
+    "hardware": "Hardware",
+    "serverRoom": "Servidores",
+    "panelCollapse": "Contraer «{name}»",
+    "panelExpand": "Expandir «{name}»",
+    "energy": "Energía",
+    "energyBar": "{used} de {cap} · {source}",
+    "nextSource": "{name} +{add}",
+    "overload": "Sobrecarga: rendimiento ×{k}",
+    "benchmarksRow": "Benchmarks · {n}/{total} · +{pct}%",
+    "trainingLocked": "Entrenar · tras {amount}",
+    "rowCount": "{name} × {n}",
+    "serverRowLabel": "{name} · {n}",
+    "buyModes": [
+      "×1",
+      "×10",
+      "×100"
+    ],
+    "buyMode": "Cantidad a comprar",
+    "locked": "???",
+    "menu": "Menú",
+    "stats": "Estadísticas",
+    "settings": "Ajustes",
+    "benchmarks": "Benchmarks",
+    "sound": "Sonido",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "tooltip": {
+      "timeToAfford": "Podrás pagarlo en {time}",
+      "upgradeCost": "Precio: {amount}",
+      "tierOdd": "{hardware}: tokens ×2",
+      "overloadWarn": "Sobrecarga: los ingresos del hardware bajarán a ×{k}",
+      "byClicks": "Podrás pagarlo haciendo clic",
+      "contextBar": "Haz clic sin parar: desde la mitad de la barra, cada clic vale ×2; con la barra llena, ×{full}. Si paras más de un segundo, la barra se vacía.",
+      "energyCost": "La electricidad se come el {pct}% de los ingresos del hardware. La eficiencia energética de cada tarjeta y de todo el hardware reduce tanto el consumo como el gasto.",
+      "training": "Parte de los tokens del hardware no se vende: entrena un modelo nuevo. Al llegar a {max}B, puedes lanzarlo: la ronda vuelve a empezar y tus ingresos crecen para siempre.",
+      "trainingLocked": "El entrenamiento se desbloquea cuando ganes {amount}. Entonces podrás dedicar parte de los tokens a entrenar un modelo nuevo, que te dará un bonus permanente de ingresos.",
+      "shop": "Tienda de mejoras permanentes: gasta los puntos de cada lanzamiento en bonus que duran para siempre",
+      "sell": "Vender {n} por {amount} ({pct}% del precio de compra)",
+      "sellFrees": "Libera {w}",
+      "headroom": "Margen libre: {w}, da para {n} × {hardware}",
+      "headroomNone": "Sin margen: más hardware provocará una sobrecarga"
+    },
+    "toasts": {
+      "saved": "Guardado",
+      "importOk": "Partida cargada",
+      "importFail": "No se pudo leer la partida guardada",
+      "saveRestored": "Partida guardada dañada: se restauró la copia de seguridad",
+      "saveLost": "Partida guardada dañada: se inició una partida nueva",
+      "cantAfford": "Te faltan {amount}",
+      "benchmark": "Benchmark superado: {name}",
+      "benchmarks": "Benchmarks superados: {n} · +{pct}% de ingresos",
+      "benchmarkBonus": "+{pct}% de ingresos"
+    },
+    "contextWindow": "Ventana de contexto",
+    "moreRacks": {
+      "one": "+{n} rack",
+      "many": "+{n} racks",
+      "other": "+{n} racks"
+    },
+    "moreRacksShort": "+{n}",
+    "serverEmpty": "Aún no hay nada. Compra tu primera «1050»: aquí aparecerá un rack y la tarjeta empezará a darte dinero.",
+    "moreTiles": "+{n} más",
+    "upgradesNext": "Siguientes mejoras",
+    "modelLine": "Modelo {model}. Precio por token: {price}",
+    "trainingRow": "Entrenamiento · {n}B de {target}B",
+    "energyCost": "Gasto de energía: {amount}/s · {pct}%",
+    "energyCostShort": "−{amount}/s",
+    "trainingRowShort": "Entrenar · {n}/{target}B",
+    "trainingRowReady": "Entrenamiento · {n}B · listo para lanzar",
+    "trainingRowReadyShort": "Lanzar · {n}B",
+    "shopBtn": "{n}",
+    "shopAria": {
+      "one": "Tienda de mejoras permanentes: {n} punto",
+      "many": "Tienda de mejoras permanentes: {n} puntos",
+      "other": "Tienda de mejoras permanentes: {n} puntos"
+    },
+    "hw": {
+      "one": "1 tarjeta: {v}",
+      "all": "Todas las tarjetas: {v}",
+      "oneUnit": "1 unidad: {v}",
+      "allUnit": "Todas: {v}",
+      "tps": "{n} tok/s",
+      "usd": "{amount}/s",
+      "perf": "Rendimiento",
+      "income": "Ingresos",
+      "power": "Consumo"
+    },
+    "trade": {
+      "buy": "Compra",
+      "sell": "Venta",
+      "label": "Modo venta"
+    },
+    "sell": {
+      "price": "Vender {name} ×{n}: +{amount}",
+      "hint": "Arrastra aquí una tarjeta de los servidores y véndela por el {pct}% de su precio",
+      "dragHere": "Suelta aquí para vender",
+      "drop": "Vender {name}: +{amount}"
+    },
+    "upgPop": {
+      "buy": "Comprar",
+      "short": "Te falta dinero"
+    },
+    "chooseLanguage": "Elige tu idioma",
+    "ariaPair": "{name}: {value}",
+    "energyBarShort": "{used}/{cap}"
+  },
+  "hardware": {
+    "gpu_1050": {
+      "name": "«1050»",
+      "full": "Tarjeta gráfica «1050»"
+    },
+    "gpu_1060": {
+      "name": "«1060»",
+      "full": "Tarjeta gráfica «1060»"
+    },
+    "gpu_1080": {
+      "name": "«1080»",
+      "full": "Tarjeta gráfica «1080»"
+    },
+    "gpu_2080": {
+      "name": "«2080»",
+      "full": "Tarjeta gráfica «2080»"
+    },
+    "gpu_3060": {
+      "name": "«3060»",
+      "full": "Tarjeta gráfica «3060»"
+    },
+    "gpu_3090": {
+      "name": "«3090»",
+      "full": "Tarjeta gráfica «3090»"
+    },
+    "gpu_4090": {
+      "name": "«4090»",
+      "full": "Tarjeta gráfica «4090»"
+    },
+    "gpu_5090": {
+      "name": "«5090»",
+      "full": "Tarjeta gráfica «5090»"
+    },
+    "dc_accel": {
+      "name": "Acelerador de servidor",
+      "full": "Acelerador de servidor"
+    },
+    "ai_accel": {
+      "name": "Acelerador de IA",
+      "full": "Acelerador de IA"
+    },
+    "superchip": {
+      "name": "Superchip",
+      "full": "Superchip"
+    },
+    "workstation": {
+      "name": "Estación de trabajo",
+      "full": "Estación de trabajo"
+    },
+    "gpu_server": {
+      "name": "Servidor GPU",
+      "full": "Servidor GPU"
+    },
+    "rack": {
+      "name": "Rack de servidores",
+      "full": "Rack de servidores"
+    },
+    "cluster": {
+      "name": "Clúster de IA",
+      "full": "Clúster de IA"
+    },
+    "datacenter": {
+      "name": "Centro de datos",
+      "full": "Centro de datos"
+    },
+    "giga_campus": {
+      "name": "Campus de gigavatios",
+      "full": "Campus de gigavatios"
+    },
+    "nuclear_campus": {
+      "name": "Campus nuclear de IA",
+      "full": "Campus nuclear de IA"
+    },
+    "orbital_dc": {
+      "name": "Centro de datos orbital",
+      "full": "Centro de datos orbital"
+    },
+    "singularity": {
+      "name": "Singularidad",
+      "full": "Singularidad"
+    }
+  },
+  "power": {
+    "outlet": {
+      "short": "enchufe",
+      "name": "Enchufe",
+      "flavor": "Un enchufe normal de tu habitación: basta para las primeras tarjetas."
+    },
+    "panel": {
+      "short": "panel eléctrico",
+      "name": "Panel eléctrico",
+      "flavor": "Tu propio panel eléctrico en el pasillo del edificio: puedes conectar más tarjetas."
+    },
+    "transformer": {
+      "short": "transformador",
+      "name": "Transformador",
+      "flavor": "Un transformador en el patio: la reserva de energía crece."
+    },
+    "substation": {
+      "short": "subestación",
+      "name": "Subestación",
+      "flavor": "Tu propia subestación: energía de sobra para toda una sala de servidores."
+    },
+    "hydro": {
+      "short": "hidroeléctrica",
+      "name": "Hidroeléctrica",
+      "flavor": "Una central hidroeléctrica te vende energía por contrato."
+    },
+    "solar_farm": {
+      "short": "parque solar",
+      "name": "Parque solar",
+      "flavor": "Campos de paneles solares alimentan la sala de servidores."
+    },
+    "mini_npp": {
+      "short": "minicentral nuclear",
+      "name": "Minicentral nuclear",
+      "flavor": "Una pequeña central nuclear justo al lado del centro de datos."
+    },
+    "fusion": {
+      "short": "fusión",
+      "name": "Reactor de fusión",
+      "flavor": "Una estrella en una caja: energía casi sin límite."
+    },
+    "orbital_panels": {
+      "short": "paneles orbitales",
+      "name": "Paneles orbitales",
+      "flavor": "Paneles solares en órbita: la energía llega a la Tierra en forma de haz."
+    }
+  },
+  "upgrades": {
+    "tierName": "{rank} · {hardware}",
+    "tier": {
+      "drivers": {
+        "short": "Reinicio",
+        "name": "Apagar y encender",
+        "flavor": "El consejo estrella del soporte técnico: tras reiniciarla, la tarjeta genera más tokens."
+      },
+      "int8": {
+        "short": "Drivers",
+        "name": "Drivers de un foro",
+        "flavor": "Los drivers salieron de un foro sospechoso, pero con ellos la tarjeta genera más tokens."
+      },
+      "batching": {
+        "short": "Golpecito",
+        "name": "Mantenimiento a golpes",
+        "flavor": "Un método de toda la vida para duplicar la eficiencia de una tarjeta gráfica."
+      },
+      "kv_cache": {
+        "short": "Limpieza",
+        "name": "Arqueología del disipador",
+        "flavor": "Del disipador saldrá polvo milenario. La tarjeta volverá a respirar y generará más tokens."
+      },
+      "fast_attention": {
+        "short": "Overclock",
+        "name": "Barrita un poco a la derecha",
+        "flavor": "El manual dice que no se toca. Lo tocamos y la tarjeta genera más tokens."
+      },
+      "speculative": {
+        "short": "Casilla",
+        "name": "La casilla secreta",
+        "flavor": "El modo de ahorro de energía estuvo activado todo este tiempo."
+      },
+      "int4": {
+        "short": "Optimizar",
+        "name": "Optimización de excusas",
+        "flavor": "Eliminar operaciones innecesarias y la respuesta «Ya no puedo más»."
+      },
+      "distillation": {
+        "short": "Memoria",
+        "name": "Cerrar 300 pestañas",
+        "flavor": "Cerrar las pestañas con reseñas de tarjetas nuevas. A ver si la vieja va más rápido."
+      },
+      "moe": {
+        "short": "Ventilador",
+        "name": "Ventilador del armario",
+        "flavor": "Apuntamos un ventilador de casa a la tarjeta. No parece muy profesional, pero salen más tokens."
+      }
+    },
+    "prompting": {
+      "prompting": {
+        "short": "Callo",
+        "name": "Callo bien ganado",
+        "flavor": "Miles de clics dejaron huella. El dedo se curtió y cada clic da más tokens."
+      },
+      "system_prompt": {
+        "short": "Dedal",
+        "name": "Dedal RGB",
+        "flavor": "Le pusimos luces al dedo. Por las leyes del hardware gamer, el rendimiento tiene que subir."
+      },
+      "few_shot": {
+        "short": "Motivación",
+        "name": "Dedo a comisión",
+        "flavor": "Le prometimos al dedo un porcentaje de las ventas. Ahora saca más tokens por clic."
+      },
+      "chain_of_thought": {
+        "short": "Dorado",
+        "name": "Dedo de oro",
+        "flavor": "Bañamos el dedo en oro. El agente toma cada clic por la consulta de un cliente adinerado."
+      },
+      "tool_use": {
+        "short": "Implante",
+        "name": "Ciberdedo de garaje",
+        "flavor": "Un amigo muy habilidoso le puso un amplificador al dedo. Chirría un poco, pero exprime más tokens."
+      },
+      "agents": {
+        "short": "Evolución",
+        "name": "Dedo de la singularidad",
+        "flavor": "Un solo clic curva el espacio y el presupuesto del usuario. Los tokens salen en cantidades indecentes."
+      }
+    },
+    "promptingDesc": "Clic +{pct}% de los tokens/s del hardware",
+    "context": {
+      "ctx_8k": {
+        "short": "Gimnasia",
+        "name": "El dedo entró en calor",
+        "flavor": "Calentamos el dedo antes del trabajo serio. Ahora le saca al agente un multiplicador más alto."
+      },
+      "ctx_32k": {
+        "short": "Disciplina",
+        "name": "Disciplina dactilar",
+        "flavor": "El dedo aprendió a trabajar sin pausas para el café. El agente subió el multiplicador máximo y lo llamó «bienestar laboral»."
+      },
+      "ctx_128k": {
+        "short": "Vicio",
+        "name": "El dedo le tomó el gusto",
+        "flavor": "El dedo probó los números grandes. Ahora pide más equis por el mismo trabajo."
+      },
+      "ctx_1m": {
+        "short": "Maratón",
+        "name": "Maratón del índice",
+        "flavor": "Inscribimos al dedo en un maratón de clics sin pausa. No prometieron medalla, pero el multiplicador máximo subió."
+      }
+    },
+    "contextDesc": "Ventana llena ×{mult}, la barra se vacía más despacio",
+    "business": {
+      "subscription": {
+        "short": "PRO",
+        "name": "Tres letras caras",
+        "flavor": "Añadimos PRO al nombre del plan. Esas tres letras dieron más dinero que la mayoría de las respuestas del agente."
+      },
+      "api_pay_per_token": {
+        "short": "Envoltorio",
+        "name": "Envoltorio más caro que el regalo",
+        "flavor": "Hicimos una página de precios preciosa. Lo que costaron los precios preciosos va incluido en los precios preciosos."
+      },
+      "team_plans": {
+        "short": "Accionistas",
+        "name": "Los inversores tienen hambre",
+        "flavor": "Los inversores pidieron ver crecimiento. El agente les mostró la nueva lista de precios. Todos contentos, menos los clientes."
+      },
+      "ads_in_answers": {
+        "short": "PLUS",
+        "name": "Un plus más",
+        "flavor": "Añadimos un «+» al nombre del plan. Contabilidad se tomó el signo al pie de la letra."
+      },
+      "enterprise": {
+        "short": "Café",
+        "name": "Latte incluido",
+        "flavor": "En la oficina hay una cafetera carísima. El precio de cada token ahora lleva un poco de espuma de leche."
+      }
+    },
+    "businessDesc": "Precio del token ×{mult}",
+    "efficiency": {
+      "window_open": {
+        "short": "Ventilación",
+        "name": "Abrir la ventana",
+        "flavor": "La corriente de aire enfría toda la sala de servidores y el hardware gasta menos energía."
+      },
+      "server_ac": {
+        "short": "Aire frío",
+        "name": "Aire acondicionado de la oficina",
+        "flavor": "El aire acondicionado de la sala de reuniones se mudó en secreto a la de servidores."
+      },
+      "liquid_cooling": {
+        "short": "Agua",
+        "name": "Refrigeración líquida para toda la sala",
+        "flavor": "Los tubos de agua llegan a todas las tarjetas a la vez y convierten la sala en una piscina."
+      },
+      "immersion_cooling": {
+        "short": "En aceite",
+        "name": "Sumergirlo todo en aceite",
+        "flavor": "Cambiar el agua por aceite."
+      },
+      "arctic_dc": {
+        "short": "Ártico",
+        "name": "Sala de servidores en el Ártico",
+        "flavor": "La sala de servidores se mudó adonde hace frío todo el año y ahora se enfría sola."
+      }
+    },
+    "efficiencyDesc": "Consumo y gasto de todo el hardware ×{mult}",
+    "team": {
+      "hw_engineer": {
+        "short": "Informático",
+        "name": "Informático con soldador",
+        "flavor": "Lo arregla todo con el soldador, y el hardware deja de gastar de más."
+      },
+      "data_engineer": {
+        "short": "Datos",
+        "name": "Conserje de datos",
+        "flavor": "Saca la basura y los duplicados de los datos, y el modelo se entrena con datos limpios."
+      },
+      "ml_engineer": {
+        "short": "ML",
+        "name": "Ingeniero de ML a base de cafeína",
+        "flavor": "Lleva tres noches sin dormir, pero el modelo se entrena más rápido."
+      },
+      "researcher": {
+        "short": "Científico",
+        "name": "Científico con un solo artículo genial",
+        "flavor": "Escribió un artículo que cita todo el mundo y todavía vive de él."
+      },
+      "lab_head": {
+        "short": "Jefazo",
+        "name": "Jefe de laboratorio con suéter",
+        "flavor": "Siempre con el mismo suéter, y sabe perfectamente adónde llevar el laboratorio."
+      }
+    },
+    "teamDesc": "Consumo y gasto ×{watts}, entrenamiento ×{speed}",
+    "lockedTitle": "Bloqueado",
+    "unlock": {
+      "owned": "Necesitas {n} × {hardware}",
+      "clickEarned": "Gana {amount} haciendo clic",
+      "clicks": "Haz {n} clics",
+      "runEarned": "Gana {amount} con este modelo",
+      "consumptionW": "Consumo de al menos {w}",
+      "benchmarks": "Supera {n} benchmarks"
+    },
+    "tierEfficiency": {
+      "thermal_paste": {
+        "short": "Pasta nueva",
+        "name": "Pasta térmica fresca",
+        "flavor": "Cambiamos la pasta reseca por una nueva: la tarjeta se calienta menos y gasta menos energía."
+      },
+      "undervolt": {
+        "short": "Undervolt",
+        "name": "Undervolt con videotutorial",
+        "flavor": "Bajamos el voltaje siguiendo un tutorial de internet, y la tarjeta gasta menos energía."
+      },
+      "water_block": {
+        "short": "Waterblock",
+        "name": "Waterblock de acuario",
+        "flavor": "Agua de un antiguo acuario enfría la tarjeta, y el gasto de energía baja todavía más."
+      }
+    },
+    "tierEffDesc": "{hardware}: consumo y gasto ×{mult}"
+  },
+  "events": {
+    "incoming": "Consulta entrante",
+    "incomingAria": "Aceptar la consulta entrante",
+    "list": {
+      "vip": {
+        "name": "Consulta VIP",
+        "desc": "+{seconds} de ingresos al instante"
+      },
+      "viral_thread": {
+        "name": "Hilo viral",
+        "desc": "Todos los ingresos ×{mult} durante {duration}"
+      },
+      "hackathon": {
+        "name": "Hackatón",
+        "desc": "Clics ×{mult} durante {duration}"
+      },
+      "investor": {
+        "name": "Inversor",
+        "desc": "Elige: +{seconds} de ingresos o hardware un {pct}% más barato durante {duration}"
+      },
+      "miner_sale": {
+        "name": "Liquidación de mineros",
+        "desc": "Hardware un {pct}% más barato durante {duration}"
+      }
+    },
+    "buff": "{name} · {effect} · {time}",
+    "buffEffect": {
+      "incomeMult": "ingresos ×{mult}",
+      "clickMult": "clics ×{mult}",
+      "hardwareDiscount": "hardware −{pct}%"
+    },
+    "offerTitle": "Un inversor te ofrece un trato",
+    "offer": {
+      "instantIncome": "+{time} de ingresos al instante ({amount})",
+      "hardwareDiscount": "Hardware −{pct}% por {time}",
+      "both": "Ver un anuncio y llevarte los dos",
+      "bothDone": "Inversor: los dos tratos son tuyos"
+    },
+    "gain": "+{amount}"
+  },
+  "benchmarks": {
+    "_doc": "Cowork escribe los nombres de broma de las pruebas; de momento, plantillas.",
+    "locked": "Ninguno superado aún",
+    "templates": {
+      "ownedLevel": {
+        "name": "{building} ×{n}",
+        "desc": "Tener {n} × {building}"
+      },
+      "totalEarned": {
+        "name": "Ganar {amount}",
+        "desc": "Ganar {amount} en total"
+      },
+      "tokensPerSec": {
+        "name": "{n} tok/s",
+        "desc": "Generar {n} tok/s"
+      },
+      "clicks": {
+        "name": "Clics: {n}",
+        "desc": "Clics en el chip: {n}"
+      },
+      "events": {
+        "name": "Eventos: {n}",
+        "desc": "Consultas entrantes aceptadas: {n}"
+      },
+      "powerSources": {
+        "name": "Fuentes de energía: {n}",
+        "desc": "Fuentes de energía conectadas: {n}"
+      },
+      "upgradesBought": {
+        "name": "Mejoras: {n}",
+        "desc": "Comprar {n} mejoras"
+      },
+      "releases": {
+        "name": "Lanzamientos: {n}",
+        "desc": "Modelos lanzados: {n}"
+      }
+    },
+    "title": "Benchmarks · {n} de {total}",
+    "passed": "Superado",
+    "last": "Último: {name}"
+  },
+  "training": {
+    "slider": "Vender tokens ↔ Entrenar el modelo",
+    "releaseButton": "Lanzar {model}",
+    "releaseTitle": "¿Lanzar {model}?",
+    "resets": "Se reinician: dinero, hardware, mejoras y energía.",
+    "keeps": "Se conservan: parámetros, benchmarks, estadísticas y mejoras permanentes.",
+    "bonus": "Para siempre: ingresos ×{mult}",
+    "points": "Puntos de tienda: +{n}",
+    "done": "Modelo lanzado: {model} ({n}B de parámetros). Ingresos ×{mult} para siempre",
+    "shop": "Tienda de mejoras permanentes",
+    "shopList": {
+      "free_first_cards": {
+        "name": "Kit de inicio",
+        "desc": "+{count} «1050» gratis: ahora y al empezar cada ronda"
+      },
+      "start_panel": {
+        "name": "Panel propio",
+        "desc": "Panel eléctrico desde el primer segundo"
+      },
+      "long_offline": {
+        "name": "Turno de noche",
+        "desc": "Ingresos sin conexión hasta {hours} h"
+      },
+      "free_1060": {
+        "name": "Kit para ir en serio",
+        "desc": "+{count} «1060» gratis: ahora y al empezar cada ronda"
+      },
+      "start_transformer": {
+        "name": "Transformador propio",
+        "desc": "Transformador desde el primer segundo"
+      },
+      "weekend_offline": {
+        "name": "Fin de semana",
+        "desc": "Ingresos sin conexión hasta {hours} h"
+      },
+      "free_1080": {
+        "name": "Kit de entusiasta",
+        "desc": "+{count} «1080» gratis: ahora y al empezar cada ronda"
+      }
+    },
+    "cost": "Precio: {n}",
+    "owned": "Comprado",
+    "pointsHave": "Puntos de tienda: {n}",
+    "needParams": "Lanzar {model} al llegar a {n}B",
+    "model": "{model} · {n}B de parámetros",
+    "split": "Venta {sell}% · entrenamiento {train}%",
+    "incomeCost": "Ingresos del hardware: {from}/s → {to}/s ({pct}%)",
+    "progressPaused": "Deslizador en 0%: entrenamiento detenido",
+    "hintOpen": "Entrenamiento desbloqueado: dedica parte de los tokens a un modelo nuevo y gana un bonus permanente de ingresos",
+    "windowTitle": "Entrenamiento de un modelo nuevo",
+    "nowLabel": "Activo ahora",
+    "now": "{model} · ingresos ×{mult}",
+    "nextLabel": "En entrenamiento",
+    "paramsOf": "{n}B de {target}B",
+    "paramsReady": "{n}B · listo para lanzar",
+    "etaRelease": "lanzamiento en ≈ {time}",
+    "sliderTitle": "Cuántos tokens dedicar al entrenamiento",
+    "sliderSell": "Vender",
+    "sliderTrain": "Entrenar",
+    "releaseGives": "Lanzarlo te dará: ingresos ×{mult} para siempre y {points} pts de tienda. El dinero, el hardware y las mejoras empezarán de cero.",
+    "howTitle": "Cómo funciona",
+    "how1": "El deslizador dedica parte de los tokens al entrenamiento: no se venden, sino que entrenan un modelo nuevo.",
+    "how2": "El modelo crece en miles de millones de parámetros (B, del inglés billion), y cada nuevo B tarda más que el anterior. Al llegar a {max}B, el entrenamiento se detiene.",
+    "how3": "El modelo terminado se lanza con el botón «Lanzar». Sustituye al actual: la ronda vuelve a empezar, pero el bonus de ingresos y los puntos se quedan para siempre.",
+    "capped": "entrenamiento detenido",
+    "cappedNote": "El modelo está listo: el entrenamiento se detuvo y todos los tokens vuelven a venderse. Lánzalo para empezar a entrenar el siguiente.",
+    "progressNoHardware": "Sin hardware: no hay con qué entrenar",
+    "releaseAd": {
+      "one": "Ver un anuncio y lanzar: +{n} punto",
+      "many": "Ver un anuncio y lanzar: +{n} puntos",
+      "other": "Ver un anuncio y lanzar: +{n} puntos"
+    },
+    "releaseAdDone": {
+      "one": "Por el anuncio: +{n} punto de tienda",
+      "many": "Por el anuncio: +{n} puntos de tienda",
+      "other": "Por el anuncio: +{n} puntos de tienda"
+    },
+    "nextTarget": "Objetivo del siguiente modelo: {n}B"
+  },
+  "offline": {
+    "title": "¡Hola de nuevo!",
+    "body": "Mientras no estabas ({time}), tus servidores ganaron {amount}.",
+    "capNote": "Sin conexión ganas el 50% de lo normal, con un máximo de {time}.",
+    "ok": "Cobrar",
+    "double": "Ver un anuncio y cobrar {amount}",
+    "doubled": "Ingresos sin conexión duplicados: +{amount}",
+    "training": "Tu modelo siguió entrenándose: {from}B → {to}B de {max}B",
+    "trainingReady": "Tu modelo llegó a {max}B y está listo para lanzar"
+  },
+  "stats": {
+    "runEarned": "Ganado con este modelo",
+    "allTimeEarned": "Ganado en total",
+    "incomeNow": "Ingresos actuales",
+    "bestIncome": "Récord de ingresos",
+    "clicks": "Clics",
+    "clickEarned": "Ganado con clics",
+    "tokens": "Tokens procesados",
+    "playTime": "Tiempo de juego",
+    "prestige": "Parámetros del modelo",
+    "generation": "Modelos lanzados",
+    "achievements": "Benchmarks",
+    "upgrades": "Mejoras compradas",
+    "buildings": "Hardware total",
+    "events": "Eventos aceptados"
+  },
+  "settings": {
+    "sound": "Efectos de sonido",
+    "music": "Música",
+    "language": "Idioma",
+    "languageAuto": "Automático",
+    "numberFormat": "Formato de números",
+    "numberShort": "Corto (1.2 M)",
+    "numberScientific": "Científico (1.2e6)",
+    "reducedMotion": "Menos animaciones",
+    "export": "Exportar partida",
+    "import": "Importar partida",
+    "importPlaceholder": "Pega aquí el código de tu partida",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "hardReset": "Empezar de cero",
+    "hardResetConfirm1": "Se borrará todo el progreso, incluidos los parámetros y los benchmarks.",
+    "hardResetConfirm2": "¿Seguro? No se puede deshacer.",
+    "help": "Cómo jugar",
+    "helpBody": "Haz clic en el chip: cada clic es una consulta, y el chip vende tokens a cambio de dólares. Compra hardware: gana dinero por sí solo mientras haya energía suficiente. Haz clic sin pausas: la ventana de contexto da ×2 y ×3. Las mejoras potencian el hardware, los clics y el precio del token. Cuando el crecimiento se frene, dedica parte de los tokens al entrenamiento y lanza un modelo nuevo."
+  },
+  "onboarding": {
+    "clickChip": "Haz clic en el chip y procesa tu primera consulta",
+    "buyFirst": "Compra una «1050»: ganará dinero por sí sola",
+    "income": "Ingresos por segundo: siguen llegando aunque no hagas clic",
+    "energy": "Las tarjetas comen electricidad. Si falta, compra la siguiente fuente"
+  },
+  "debug": {
+    "title": "Depuración",
+    "add1k": "+$1 mil",
+    "add1m": "+$1 M",
+    "x10": "×10 dinero",
+    "time": "Tiempo ×{n}",
+    "spawn": "Generar consulta",
+    "compute": "+10B de cómputo",
+    "art": "Imágenes: {style}",
+    "artStyle": {
+      "svg": "primitivas",
+      "regular": "normales"
+    }
+  },
+  "models": {
+    "0": "Smith-0 Borrador",
+    "1": "Smith-1 Mini",
+    "2": "Smith-1.5 Turbo",
+    "3": "Smith-2 Pro",
+    "4": "Smith-2.5 Pro Plus",
+    "5": "Smith-3 Ultra",
+    "6": "Smith-3.5 Omni",
+    "7": "Smith-4 Pensante",
+    "8": "Smith-4.5 Pensándoselo",
+    "9": "Smith-5 Preview",
+    "10": "Smith-5 Final",
+    "11": "Smith-5 Final Definitivo",
+    "n": "Smith-{n}",
+    "_doc": "Nombre del modelo de Smith según el número de lanzamientos (state.releases): 0, antes del primer lanzamiento; desde 12 lanzamientos, la plantilla n con n = lanzamientos − 6."
+  },
+  "ads": {
+    "boost": {
+      "button": "Turbo ×{mult}",
+      "active": "Turbo · {effect} · {time}",
+      "aria": "Turbo: ingresos ×{mult} durante {duration} a cambio de ver un anuncio",
+      "title": "Turbo",
+      "body": "Todos los ingresos de tus servidores pasan a ×{mult} durante {duration}. El tiempo solo corre con el juego abierto.",
+      "watch": "Ver un anuncio: ingresos ×{mult} durante {duration}",
+      "started": "Turbo: ingresos ×{mult} durante {duration}"
+    },
+    "later": "Ahora no",
+    "loading": "Cargando anuncio…",
+    "unavailable": "No hay anuncios disponibles ahora: inténtalo más tarde",
+    "blocked": "Sin bonus por anuncios: parece que los anuncios están bloqueados",
+    "break": {
+      "notice": "Anuncio en {n}…",
+      "paused": "Juego en pausa"
+    },
+    "fake": "Anuncio (prueba)"
+  },
+  "iap": {
+    "title": "Compras",
+    "loading": "Cargando compras…",
+    "unavailable": "Las compras no están disponibles ahora",
+    "owned": "Comprado",
+    "done": "Listo: {name}",
+    "delivered": "Compra recibida: {name}",
+    "failed": "La compra falló",
+    "list": {
+      "no_ads": {
+        "name": "Sin anuncios",
+        "desc": "Quita las pausas publicitarias y el banner. Los bonus por anuncios siguen ahí, si los quieres."
+      },
+      "income_x2": {
+        "name": "Ingresos ×2 para siempre",
+        "desc": "Tus servidores ganan el doble en cada ronda, también sin conexión."
+      },
+      "time_skip_4h": {
+        "name": "Salto en el tiempo",
+        "desc": "{time} de ingresos de tus servidores al instante: {amount}."
+      }
+    },
+    "needIncome": "Primero compra hardware: tus servidores aún no ganan nada",
+    "loginHint": "Inicia sesión para conservar tus compras y tu progreso en todos tus dispositivos",
+    "login": "Entrar"
+  }
+}

@@ -1,0 +1,787 @@
+{
+  "meta": {
+    "lang": "tr",
+    "name": "Türkçe"
+  },
+  "format": {
+    "currency": "$",
+    "suffixes": [
+      "",
+      " bin",
+      " Mn",
+      " Mr",
+      " Tn",
+      " Ktr",
+      " Knt",
+      " Sek",
+      " Spt",
+      " Okt",
+      " Non",
+      " Des"
+    ],
+    "sec": "{n} sn",
+    "min": "{n} dk",
+    "hour": "{n} sa",
+    "day": "{n} gün",
+    "decimal": ",",
+    "group": ".",
+    "watts": [
+      "W",
+      "kW",
+      "MW",
+      "GW",
+      "TW"
+    ],
+    "money": "{c}{n}",
+    "profit": "{c}{n}"
+  },
+  "ui": {
+    "title": "Son Bir Ekran Kartı Daha!",
+    "profit": "Kâr: {amount}",
+    "tokensPerSec": "{n} tkn/sn",
+    "moneyPerSec": "+{amount}/sn",
+    "tps": "tkn/sn",
+    "dollarsPerSec": "Saniye başına dolar: {amount}",
+    "clickGain": "+{amount}",
+    "windowMult": "×{n}",
+    "chipAria": "Çipe tıkla ve bir istek işle",
+    "speaker": "Smith",
+    "upgrades": "Yükseltmeler",
+    "hardware": "Donanım",
+    "serverRoom": "Sunucular",
+    "panelCollapse": "“{name}” panelini daralt",
+    "panelExpand": "“{name}” panelini genişlet",
+    "energy": "Enerji",
+    "energyBar": "{used} / {cap} · {source}",
+    "nextSource": "{name} +{add}",
+    "overload": "Aşırı yük: donanım geliri ×{k}",
+    "benchmarksRow": "Benchmark · {n}/{total} · +%{pct}",
+    "trainingLocked": "Eğitim · {amount} kazan",
+    "rowCount": "{name} × {n}",
+    "serverRowLabel": "{name} · {n} adet",
+    "buyModes": [
+      "×1",
+      "×10",
+      "×100"
+    ],
+    "buyMode": "Satın alma miktarı",
+    "locked": "???",
+    "menu": "Menü",
+    "stats": "İstatistik",
+    "settings": "Ayarlar",
+    "benchmarks": "Benchmarklar",
+    "sound": "Ses",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "cancel": "Vazgeç",
+    "tooltip": {
+      "timeToAfford": "Paran yetene kadar: {time}",
+      "upgradeCost": "Fiyat: {amount}",
+      "tierOdd": "{hardware}: token üretimi ×2",
+      "overloadWarn": "Aşırı yük: donanım geliri ×{k} olur",
+      "byClicks": "Tıklayarak biriktir",
+      "contextBar": "Durmadan tıkla: çubuk yarıya gelince tıklama ×2, tam dolunca ×{full} olur. Bir saniyeden uzun durursan çubuk boşalmaya başlar.",
+      "energyCost": "Elektrik, donanım gelirinin %{pct} kadarını yiyor. Tek tek kartların ve tüm donanımın enerji verimliliği hem tüketimi hem de gideri düşürür.",
+      "training": "Donanım üretiminin bir kısmı satılmaz, yeni bir modeli eğitir. Model {max}B olunca onu yayınlayabilirsin: tur baştan başlar, gelirin ise kalıcı olarak artar.",
+      "trainingLocked": "Eğitim, {amount} kazanınca açılır. Sonra token üretiminin bir kısmını yeni bir modelin eğitimine verebilirsin; o da gelirine kalıcı bonus sağlar.",
+      "shop": "Kalıcı yükseltmeler: model yayınlayınca kazandığın puanları sonsuza dek kalan bonuslara harca",
+      "sell": "{n} adet sat: {amount} — alış fiyatının %{pct} kadarı",
+      "sellFrees": "{w} serbest kalır",
+      "headroom": "Kalan güç: {w} — {n} adet {hardware} daha sığar",
+      "headroomNone": "Kalan güç yok: yeni donanım aşırı yüke yol açar"
+    },
+    "toasts": {
+      "saved": "Kaydedildi",
+      "importOk": "Kayıt yüklendi",
+      "importFail": "Kayıt okunamadı",
+      "saveRestored": "Kayıt bozulmuştu — yedek kopya geri yüklendi",
+      "saveLost": "Kayıt bozuk — yeni oyun başlatıldı",
+      "cantAfford": "{amount} daha gerekiyor",
+      "benchmark": "Benchmark geçildi: {name}",
+      "benchmarks": "Geçilen benchmark: {n} · +%{pct} gelir",
+      "benchmarkBonus": "+%{pct} gelir"
+    },
+    "contextWindow": "Bağlam penceresi",
+    "moreRacks": {
+      "one": "+{n} kabin",
+      "other": "+{n} kabin"
+    },
+    "moreRacksShort": "+{n}",
+    "serverEmpty": "Şimdilik boş. İlk “1050” kartını satın al — burada bir kabin belirecek ve kart para kazanmaya başlayacak.",
+    "moreTiles": "+{n} daha",
+    "upgradesNext": "Sonraki yükseltmeler",
+    "modelLine": "Model: {model}. Token fiyatı: {price}",
+    "trainingRow": "Eğitim · {n}B / {target}B",
+    "energyCost": "Enerji gideri: {amount}/sn · %{pct}",
+    "energyCostShort": "−{amount}/sn",
+    "trainingRowShort": "Eğitim · {n}/{target}B",
+    "trainingRowReady": "Eğitim · {n}B · yayına hazır",
+    "trainingRowReadyShort": "Yayınla · {n}B",
+    "shopBtn": "{n}",
+    "shopAria": {
+      "one": "Kalıcı yükseltmeler: {n} puan",
+      "other": "Kalıcı yükseltmeler: {n} puan"
+    },
+    "hw": {
+      "one": "1 kart: {v}",
+      "all": "tüm kartlar: {v}",
+      "oneUnit": "1 adet: {v}",
+      "allUnit": "tümü: {v}",
+      "tps": "{n} tkn/sn",
+      "usd": "{amount}/sn",
+      "perf": "Üretim",
+      "income": "Gelir",
+      "power": "Tüketim"
+    },
+    "trade": {
+      "buy": "Satın al",
+      "sell": "Sat",
+      "label": "Satış modu"
+    },
+    "sell": {
+      "price": "{name} ×{n} sat: +{amount}",
+      "hint": "Sunuculardan buraya bir kart sürükle — fiyatının %{pct} kadarına satarsın",
+      "dragHere": "Satmak için buraya bırak",
+      "drop": "{name} sat: +{amount}"
+    },
+    "upgPop": {
+      "buy": "Satın al",
+      "short": "Paran yetmiyor"
+    },
+    "chooseLanguage": "Dilini seç",
+    "ariaPair": "{name}: {value}",
+    "energyBarShort": "{used}/{cap}"
+  },
+  "hardware": {
+    "gpu_1050": {
+      "name": "“1050”",
+      "full": "“1050” Ekran Kartı"
+    },
+    "gpu_1060": {
+      "name": "“1060”",
+      "full": "“1060” Ekran Kartı"
+    },
+    "gpu_1080": {
+      "name": "“1080”",
+      "full": "“1080” Ekran Kartı"
+    },
+    "gpu_2080": {
+      "name": "“2080”",
+      "full": "“2080” Ekran Kartı"
+    },
+    "gpu_3060": {
+      "name": "“3060”",
+      "full": "“3060” Ekran Kartı"
+    },
+    "gpu_3090": {
+      "name": "“3090”",
+      "full": "“3090” Ekran Kartı"
+    },
+    "gpu_4090": {
+      "name": "“4090”",
+      "full": "“4090” Ekran Kartı"
+    },
+    "gpu_5090": {
+      "name": "“5090”",
+      "full": "“5090” Ekran Kartı"
+    },
+    "dc_accel": {
+      "name": "Sunucu Hızlandırıcısı",
+      "full": "Sunucu Hızlandırıcısı"
+    },
+    "ai_accel": {
+      "name": "YZ Hızlandırıcısı",
+      "full": "YZ Hızlandırıcısı"
+    },
+    "superchip": {
+      "name": "Süperçip",
+      "full": "Süperçip"
+    },
+    "workstation": {
+      "name": "İş İstasyonu",
+      "full": "İş İstasyonu"
+    },
+    "gpu_server": {
+      "name": "GPU Sunucusu",
+      "full": "GPU Sunucusu"
+    },
+    "rack": {
+      "name": "Sunucu Kabini",
+      "full": "Sunucu Kabini"
+    },
+    "cluster": {
+      "name": "YZ Kümesi",
+      "full": "YZ Kümesi"
+    },
+    "datacenter": {
+      "name": "Veri Merkezi",
+      "full": "Veri Merkezi"
+    },
+    "giga_campus": {
+      "name": "Gigavat Kampüsü",
+      "full": "Gigavat Kampüsü"
+    },
+    "nuclear_campus": {
+      "name": "Nükleer YZ Kampüsü",
+      "full": "Nükleer YZ Kampüsü"
+    },
+    "orbital_dc": {
+      "name": "Yörünge Veri Merkezi",
+      "full": "Yörünge Veri Merkezi"
+    },
+    "singularity": {
+      "name": "Tekillik",
+      "full": "Tekillik"
+    }
+  },
+  "power": {
+    "outlet": {
+      "short": "priz",
+      "name": "Priz",
+      "flavor": "Odadaki sıradan bir priz; ilk kartlara yeter."
+    },
+    "panel": {
+      "short": "sigorta kutusu",
+      "name": "Sigorta Kutusu",
+      "flavor": "Apartman girişinde kendi sigorta kutun; daha çok kart bağlayabilirsin."
+    },
+    "transformer": {
+      "short": "trafo",
+      "name": "Trafo",
+      "flavor": "Bahçede bir trafo; enerji kapasiten büyüyor."
+    },
+    "substation": {
+      "short": "trafo merkezi",
+      "name": "Trafo Merkezi",
+      "flavor": "Kendi trafo merkezin; bütün bir sunucu odasına yetecek kadar enerji."
+    },
+    "hydro": {
+      "short": "HES",
+      "name": "HES Anlaşması",
+      "flavor": "Enerjiyi anlaşmayla bir hidroelektrik santrali sağlıyor."
+    },
+    "solar_farm": {
+      "short": "güneş tarlası",
+      "name": "Güneş Tarlası",
+      "flavor": "Tarlalar dolusu güneş paneli sunucuları besliyor."
+    },
+    "mini_npp": {
+      "short": "mini nükleer",
+      "name": "Mini Nükleer Santral",
+      "flavor": "Veri merkezinin hemen yanında küçük bir nükleer santral."
+    },
+    "fusion": {
+      "short": "füzyon",
+      "name": "Füzyon Reaktörü",
+      "flavor": "Kutuda bir yıldız: neredeyse sınırsız enerji."
+    },
+    "orbital_panels": {
+      "short": "yörünge panelleri",
+      "name": "Yörünge Panelleri",
+      "flavor": "Yörüngedeki güneş panelleri enerjiyi Dünya’ya ışınlıyor."
+    }
+  },
+  "upgrades": {
+    "tierName": "{rank} · {hardware}",
+    "tier": {
+      "drivers": {
+        "short": "Reset",
+        "name": "Kapatıp Aç",
+        "flavor": "Teknik desteğin bir numaralı tavsiyesi: yeniden başlatınca kart daha çok token üretir."
+      },
+      "int8": {
+        "short": "Sürücüler",
+        "name": "Forumdan Sürücüler",
+        "flavor": "Sürücüler tuhaf bir forumdan indirildi ama kart onlarla daha çok token üretiyor."
+      },
+      "batching": {
+        "short": "Şaplak",
+        "name": "Bir Vur, Düzelir",
+        "flavor": "Atadan kalma yöntem: ekran kartının verimini ikiye katlar."
+      },
+      "kv_cache": {
+        "short": "Temizlik",
+        "name": "Soğutucu Arkeolojisi",
+        "flavor": "Soğutucudan antik tozlar çıkarılacak. Kart yeniden nefes alacak ve daha çok token üretecek."
+      },
+      "fast_attention": {
+        "short": "Overclock",
+        "name": "Kaydırıcı Biraz Sağa",
+        "flavor": "Kılavuz dokunma diyor. Dokunacağız; kart daha çok token üretecek."
+      },
+      "speculative": {
+        "short": "Kutucuk",
+        "name": "Gizli Kutucuk",
+        "flavor": "Bunca zaman güç tasarrufu modu açıkmış."
+      },
+      "int4": {
+        "short": "Bahane",
+        "name": "Bahane Optimizasyonu",
+        "flavor": "Gereksiz işlemler ve “Artık yapamıyorum” cevabı siliniyor."
+      },
+      "distillation": {
+        "short": "Bellek",
+        "name": "300 Sekmeyi Kapat",
+        "flavor": "Yeni ekran kartı incelemelerinin açık olduğu sekmeleri kapat. Belki eskisi hızlanır."
+      },
+      "moe": {
+        "short": "Vantilatör",
+        "name": "Kilerden Vantilatör",
+        "flavor": "Karta bir ev vantilatörü çevireceğiz. Pek havalı durmuyor ama daha çok token gelecek."
+      }
+    },
+    "prompting": {
+      "prompting": {
+        "short": "Nasır",
+        "name": "Hak Edilmiş Nasır",
+        "flavor": "Binlerce tıklama iz bıraktı. Parmak sertleşti, her basışta daha çok token geliyor."
+      },
+      "system_prompt": {
+        "short": "RGB",
+        "name": "RGB Parmak Kılıfı",
+        "flavor": "Parmağa RGB aydınlatma eklendi. Oyuncu ekipmanı kanunlarına göre performans artmak zorunda."
+      },
+      "few_shot": {
+        "short": "Motivasyon",
+        "name": "Primli Parmak",
+        "flavor": "Parmağa cirodan prim sözü verildi. Artık basış başına daha çok token çıkarıyor."
+      },
+      "chain_of_thought": {
+        "short": "Yaldız",
+        "name": "Altın Parmak",
+        "flavor": "Parmak altınla kaplandı. Ajan artık her tıklamayı zengin bir müşterinin isteği sanıyor."
+      },
+      "tool_use": {
+        "short": "İmplant",
+        "name": "Garajdan Siber Parmak",
+        "flavor": "Eli yatkın bir tanıdık parmağa güçlendirici taktı. Biraz gıcırdıyor ama daha çok token sağıyor."
+      },
+      "agents": {
+        "short": "Evrim",
+        "name": "Tekillik Parmağı",
+        "flavor": "Tek bir basış uzayı ve kullanıcının bütçesini büküyor. Token sayısı ayıp denecek kadar artıyor."
+      }
+    },
+    "promptingDesc": "Tıklama başına +%{pct} donanım üretimi",
+    "context": {
+      "ctx_8k": {
+        "short": "Isınma",
+        "name": "Isınmış Parmak",
+        "flavor": "Parmak ciddi işten önce ısındı. Artık ajandan daha yüksek çarpan koparıyor."
+      },
+      "ctx_32k": {
+        "short": "Disiplin",
+        "name": "Parmak Disiplini",
+        "flavor": "Parmak çay molası vermeden çalışmayı öğrendi. Ajan en yüksek çarpanı artırdı ve buna çalışan refahı dedi."
+      },
+      "ctx_128k": {
+        "short": "Heves",
+        "name": "Parmak Tadını Aldı",
+        "flavor": "Parmak büyük sayıların tadını aldı. Artık aynı iş için daha çok çarpan istiyor."
+      },
+      "ctx_1m": {
+        "short": "Maraton",
+        "name": "İşaret Parmağı Maratonu",
+        "flavor": "Parmağı durmaksızın tıklama maratonuna yazdırdık. Madalya sözü yok ama en yüksek çarpan arttı."
+      }
+    },
+    "contextDesc": "Dolu pencere ×{mult}, çubuk daha yavaş boşalır",
+    "business": {
+      "subscription": {
+        "short": "PRO",
+        "name": "Üç Pahalı Harf",
+        "flavor": "Tarifenin adına PRO eklendi. Bu üç harf, ajanın çoğu cevabından daha kârlı çıktı."
+      },
+      "api_pay_per_token": {
+        "short": "Ambalaj",
+        "name": "Ambalajı İçinden Pahalı",
+        "flavor": "Şık bir tarife sayfası yapıldı. Şık tarifelerin maliyeti şık tarifelere eklendi."
+      },
+      "team_plans": {
+        "short": "Hissedar",
+        "name": "Yatırımcılar Acıktı",
+        "flavor": "Yatırımcılar büyüme görmek istedi. Ajan onlara yeni fiyat etiketini gösterdi. Müşteriler hariç herkes memnun."
+      },
+      "ads_in_answers": {
+        "short": "PLUS",
+        "name": "Bir Artı Daha",
+        "flavor": "Tarifenin adına “+” eklendi. Muhasebe bu işareti harfiyen anladı."
+      },
+      "enterprise": {
+        "short": "Kahve",
+        "name": "Latte Fiyata Dâhil",
+        "flavor": "Ofise pahalı bir kahve makinesi geldi. Artık her token fiyatında biraz süt köpüğü var."
+      }
+    },
+    "businessDesc": "Token fiyatı ×{mult}",
+    "efficiency": {
+      "window_open": {
+        "short": "Cereyan",
+        "name": "Camı Aç",
+        "flavor": "Cereyan bütün sunucu odasını serinletiyor, donanım daha az enerji harcıyor."
+      },
+      "server_ac": {
+        "short": "Klima",
+        "name": "Ofisten Klima",
+        "flavor": "Klima toplantı odasından sunucu odasına gizlice taşındı."
+      },
+      "liquid_cooling": {
+        "short": "Su Soğutma",
+        "name": "Bütün Odaya Su Soğutma",
+        "flavor": "Su boruları aynı anda bütün kartlara gidiyor ve sunucu odasını havuza çeviriyor."
+      },
+      "immersion_cooling": {
+        "short": "Yağ Banyosu",
+        "name": "Her Şeyi Yağa Batır",
+        "flavor": "Suyu yağla değiştir."
+      },
+      "arctic_dc": {
+        "short": "Kutup",
+        "name": "Kutuptaki Sunucu Odası",
+        "flavor": "Sunucu odası yıl boyu soğuk bir yere taşındı ve kendi kendini soğutuyor."
+      }
+    },
+    "efficiencyDesc": "Tüm donanımın tüketimi ve enerji gideri ×{mult}",
+    "team": {
+      "hw_engineer": {
+        "short": "Sistemci",
+        "name": "Havyalı Sistemci",
+        "flavor": "Her şeyi havyayla tamir ediyor, donanım da boşa enerji harcamayı bırakıyor."
+      },
+      "data_engineer": {
+        "short": "Veri",
+        "name": "Veri Temizlikçisi",
+        "flavor": "Verideki çöpü ve kopyaları temizliyor; model tertemiz veriyle öğreniyor."
+      },
+      "ml_engineer": {
+        "short": "ML",
+        "name": "Enerji İçecekli ML Mühendisi",
+        "flavor": "Üç gecedir uyumuyor ama model daha hızlı öğreniyor."
+      },
+      "researcher": {
+        "short": "Dâhi",
+        "name": "Tek Makalelik Dâhi",
+        "flavor": "Herkesin atıf yaptığı tek bir makale yazdı ve hâlâ onunla geçiniyor."
+      },
+      "lab_head": {
+        "short": "Kazaklı CEO",
+        "name": "Kazaklı Laboratuvar Şefi",
+        "flavor": "Hep aynı kazakla geziyor ve laboratuvarı nereye götüreceğini çok iyi biliyor."
+      }
+    },
+    "teamDesc": "Tüketim ve enerji gideri ×{watts}, eğitim ×{speed}",
+    "lockedTitle": "Kilitli",
+    "unlock": {
+      "owned": "Gerekli: {n} adet {hardware}",
+      "clickEarned": "Tıklayarak {amount} kazan",
+      "clicks": "{n} kez tıkla",
+      "runEarned": "Bu modelle {amount} kazan",
+      "consumptionW": "Tüketim: en az {w}",
+      "benchmarks": "{n} benchmark geç"
+    },
+    "tierEfficiency": {
+      "thermal_paste": {
+        "short": "Macun",
+        "name": "Taze Termal Macun",
+        "flavor": "Kurumuş macun yenisiyle değişti: kart daha az ısınıyor, daha az enerji yiyor."
+      },
+      "undervolt": {
+        "short": "Undervolt",
+        "name": "Videodan Undervolt",
+        "flavor": "Voltaj internetteki bir videoya bakılarak düşürüldü; kart artık daha az enerji harcıyor."
+      },
+      "water_block": {
+        "short": "Su Bloğu",
+        "name": "Akvaryumdan Su Bloğu",
+        "flavor": "Kartı eski bir akvaryumun suyu soğutuyor; enerji gideri daha da düştü."
+      }
+    },
+    "tierEffDesc": "{hardware}: tüketim ve enerji gideri ×{mult}"
+  },
+  "events": {
+    "incoming": "Gelen istek",
+    "incomingAria": "Gelen isteği kabul et",
+    "list": {
+      "vip": {
+        "name": "VIP İstek",
+        "desc": "Anında {seconds} değerinde gelir"
+      },
+      "viral_thread": {
+        "name": "Viral Flood",
+        "desc": "Tüm gelir {duration} boyunca ×{mult}"
+      },
+      "hackathon": {
+        "name": "Hackathon",
+        "desc": "Tıklamalar {duration} boyunca ×{mult}"
+      },
+      "investor": {
+        "name": "Yatırımcı",
+        "desc": "Birini seç: {seconds} değerinde gelir ya da {duration} boyunca donanımda %{pct} indirim"
+      },
+      "miner_sale": {
+        "name": "Madenci İndirimi",
+        "desc": "Donanım {duration} boyunca %{pct} indirimli"
+      }
+    },
+    "buff": "{name} · {effect} · {time}",
+    "buffEffect": {
+      "incomeMult": "gelir ×{mult}",
+      "clickMult": "tıklamalar ×{mult}",
+      "hardwareDiscount": "donanım −%{pct}"
+    },
+    "offerTitle": "Yatırımcıdan teklif var",
+    "offer": {
+      "instantIncome": "Hemen {time} değerinde gelir ({amount})",
+      "hardwareDiscount": "Donanım −%{pct} ({time})",
+      "both": "Reklam izle ve ikisini de al",
+      "bothDone": "Yatırımcı: iki anlaşma da senin"
+    },
+    "gain": "+{amount}"
+  },
+  "benchmarks": {
+    "_doc": "Esprili test adlarını Cowork yazacak; şimdilik şablonlar kullanılıyor.",
+    "locked": "Henüz geçilen yok",
+    "templates": {
+      "ownedLevel": {
+        "name": "{building} ×{n}",
+        "desc": "Elinde {n} adet olsun: {building}"
+      },
+      "totalEarned": {
+        "name": "{amount} kazanç",
+        "desc": "Toplamda {amount} kazan"
+      },
+      "tokensPerSec": {
+        "name": "{n} tkn/sn",
+        "desc": "Saniyede {n} token üret"
+      },
+      "clicks": {
+        "name": "Tıklama: {n}",
+        "desc": "Çipe {n} kez tıkla"
+      },
+      "events": {
+        "name": "Olay: {n}",
+        "desc": "Gelen istek kabul et: {n}"
+      },
+      "powerSources": {
+        "name": "Kaynak: {n}",
+        "desc": "Enerji kaynağı bağla: {n}"
+      },
+      "upgradesBought": {
+        "name": "Yükseltme: {n}",
+        "desc": "{n} yükseltme satın al"
+      },
+      "releases": {
+        "name": "Yayınlanan model: {n}",
+        "desc": "Model yayınla: {n}"
+      }
+    },
+    "title": "Benchmarklar · {n} / {total}",
+    "passed": "Geçildi",
+    "last": "Son geçilen: {name}"
+  },
+  "training": {
+    "slider": "Token sat ↔ Model eğit",
+    "releaseButton": "{model} modelini yayınla",
+    "releaseTitle": "{model} yayınlansın mı?",
+    "resets": "Sıfırlanacak: para, donanım, yükseltmeler, enerji.",
+    "keeps": "Kalacak: parametreler, benchmarklar, istatistikler, kalıcı yükseltmeler.",
+    "bonus": "Kalıcı bonus: gelir ×{mult}",
+    "points": "Yükseltme puanı: +{n}",
+    "done": "{model} yayınlandı: {n}B parametre. Gelir kalıcı olarak ×{mult}",
+    "shop": "Kalıcı yükseltmeler",
+    "shopList": {
+      "free_first_cards": {
+        "name": "Başlangıç Paketi",
+        "desc": "+{count} “1050” bedava — hemen ve her turun başında"
+      },
+      "start_panel": {
+        "name": "Kendi Sigorta Kutun",
+        "desc": "İlk saniyeden sigorta kutusu"
+      },
+      "long_offline": {
+        "name": "Gece Vardiyası",
+        "desc": "{hours} saate kadar çevrimdışı gelir"
+      },
+      "free_1060": {
+        "name": "Daha Ciddi Paket",
+        "desc": "+{count} “1060” bedava — hemen ve her turun başında"
+      },
+      "start_transformer": {
+        "name": "Kendi Trafon",
+        "desc": "İlk saniyeden trafo"
+      },
+      "weekend_offline": {
+        "name": "Hafta Sonu",
+        "desc": "{hours} saate kadar çevrimdışı gelir"
+      },
+      "free_1080": {
+        "name": "Meraklısına Paket",
+        "desc": "+{count} “1080” bedava — hemen ve her turun başında"
+      }
+    },
+    "cost": "Fiyat: {n} puan",
+    "owned": "Alındı",
+    "pointsHave": "Yükseltme puanı: {n}",
+    "needParams": "{model} modelini yayınla — {n}B olunca",
+    "model": "{model} · {n}B parametre",
+    "split": "Satış %{sell} · eğitim %{train}",
+    "incomeCost": "Donanım geliri: {from}/sn → {to}/sn (%{pct})",
+    "progressPaused": "Kaydırıcı %0’da — eğitim durdu",
+    "hintOpen": "Eğitim açıldı: token üretiminin bir kısmını yeni modele ver, kalıcı gelir bonusu kazan",
+    "windowTitle": "Yeni model eğitimi",
+    "nowLabel": "Şu an çalışan",
+    "now": "{model} · gelir ×{mult}",
+    "nextLabel": "Eğitiliyor",
+    "paramsOf": "{n}B / {target}B",
+    "paramsReady": "{n}B · yayına hazır",
+    "etaRelease": "yayına kalan ≈ {time}",
+    "sliderTitle": "Eğitime ne kadar token ayrılsın",
+    "sliderSell": "Sat",
+    "sliderTrain": "Eğit",
+    "releaseGives": "Yayınlarsan gelirin kalıcı olarak ×{mult} olur ve {points} yükseltme puanı kazanırsın. Para, donanım ve yükseltmeler sıfırlanır.",
+    "howTitle": "Nasıl çalışır",
+    "how1": "Kaydırıcı, token üretiminin bir kısmını eğitime ayırır: o kısım satılmaz, yeni modeli eğitmeye gider.",
+    "how2": "Model milyarlarca parametreyle büyür (B = milyar) ve her yeni B, bir öncekinden daha uzun sürer. {max}B olunca eğitim durur.",
+    "how3": "Hazır modeli “Yayınla” düğmesiyle yayınla. Yeni model eskisinin yerini alır: tur baştan başlar, ama gelir bonusu ve puanlar kalıcıdır.",
+    "capped": "eğitim durdu",
+    "cappedNote": "Model hazır: eğitim durdu, üretimin tamamı yeniden satılıyor. Bir sonrakini eğitmeye başlamak için onu yayınla.",
+    "progressNoHardware": "Donanım yok — eğitim yapılamaz",
+    "releaseAd": {
+      "one": "Reklam izle ve yayınla: +{n} puan",
+      "other": "Reklam izle ve yayınla: +{n} puan"
+    },
+    "releaseAdDone": {
+      "one": "Reklam bonusu: +{n} yükseltme puanı",
+      "other": "Reklam bonusu: +{n} yükseltme puanı"
+    },
+    "nextTarget": "Sonraki modelin hedefi: {n}B"
+  },
+  "offline": {
+    "title": "Tekrar hoş geldin!",
+    "body": "Sen yokken ({time}) sunucular {amount} kazandı.",
+    "capNote": "Çevrimdışı gelir normalin %50’si; en fazla {time} birikir.",
+    "ok": "Topla",
+    "double": "Reklam izle ve {amount} topla",
+    "doubled": "Çevrimdışı gelir ikiye katlandı: +{amount}",
+    "training": "Modelin de eğitime devam etti: {from}B → {to}B / {max}B",
+    "trainingReady": "Modelin hazır ({max}B): artık yayınlayabilirsin"
+  },
+  "stats": {
+    "runEarned": "Bu modelin kazancı",
+    "allTimeEarned": "Toplam kazanç",
+    "incomeNow": "Şu anki gelir",
+    "bestIncome": "En yüksek gelir",
+    "clicks": "Tıklamalar",
+    "clickEarned": "Tıklama kazancı",
+    "tokens": "İşlenen token",
+    "playTime": "Oyun süresi",
+    "prestige": "Model parametreleri",
+    "generation": "Yayınlanan modeller",
+    "achievements": "Benchmarklar",
+    "upgrades": "Alınan yükseltmeler",
+    "buildings": "Toplam donanım",
+    "events": "Kabul edilen olaylar"
+  },
+  "settings": {
+    "sound": "Ses efektleri",
+    "music": "Müzik",
+    "language": "Dil",
+    "languageAuto": "Sistem dili",
+    "numberFormat": "Sayı biçimi",
+    "numberShort": "Kısa (1,2 Mn)",
+    "numberScientific": "Bilimsel (1,2e6)",
+    "reducedMotion": "Daha az animasyon",
+    "export": "Kaydı dışa aktar",
+    "import": "Kaydı içe aktar",
+    "importPlaceholder": "Kayıt kodunu buraya yapıştır",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "hardReset": "Sıfırdan başla",
+    "hardResetConfirm1": "Parametreler ve benchmarklar dâhil tüm ilerleme silinecek.",
+    "hardResetConfirm2": "Emin misin? Bu işlem geri alınamaz.",
+    "help": "Nasıl oynanır",
+    "helpBody": "Çipe tıkla: her tıklama bir istektir ve çip token satıp dolar kazanır. Donanım satın al — enerji yettiği sürece kendi kendine para kazanır. Durmadan tıkla — bağlam penceresi ×2 ve ×3 verir. Yükseltmeler donanımı ve tıklamayı güçlendirir, token fiyatını artırır. Büyüme yavaşlayınca gücünün bir kısmını eğitime ver ve yeni bir model yayınla."
+  },
+  "onboarding": {
+    "clickChip": "Çipe tıkla ve ilk isteği işle",
+    "buyFirst": "Bir “1050” satın al — kendi kendine para kazanır",
+    "income": "Bu, saniye başına gelirin. Sen tıklamasan da akmaya devam eder",
+    "energy": "Kartlar elektrik yer. Yetmezse sıradaki kaynağı satın al"
+  },
+  "debug": {
+    "title": "Hata ayıklama",
+    "add1k": "+$1 bin",
+    "add1m": "+$1 Mn",
+    "x10": "Para ×10",
+    "time": "Zaman ×{n}",
+    "spawn": "İstek oluştur",
+    "compute": "+10B işlem gücü",
+    "art": "Görseller: {style}",
+    "artStyle": {
+      "svg": "basit şekiller",
+      "regular": "normal"
+    }
+  },
+  "models": {
+    "0": "Smith-0 Taslak",
+    "1": "Smith-1 Mini",
+    "2": "Smith-1.5 Turbo",
+    "3": "Smith-2 Pro",
+    "4": "Smith-2.5 Pro Plus",
+    "5": "Smith-3 Ultra",
+    "6": "Smith-3.5 Omni",
+    "7": "Smith-4 Düşünen",
+    "8": "Smith-4.5 Fazla Düşünen",
+    "9": "Smith-5 Önizleme",
+    "10": "Smith-5 Son",
+    "11": "Smith-5 Kesin Son",
+    "n": "Smith-{n}",
+    "_doc": "Smith modelinin adı yayın sayısına göre (state.releases): 0 — ilk yayından önce; 12 yayından itibaren n şablonu, n = yayın sayısı − 6."
+  },
+  "ads": {
+    "boost": {
+      "button": "Turbo ×{mult}",
+      "active": "Turbo · {effect} · {time}",
+      "aria": "Turbo: reklam izle, {duration} boyunca gelir ×{mult}",
+      "title": "Turbo",
+      "body": "Sunucuların tüm geliri {duration} boyunca ×{mult} olur. Süre yalnızca oyun açıkken işler.",
+      "watch": "Reklam izle: {duration} boyunca gelir ×{mult}",
+      "started": "Turbo: {duration} boyunca gelir ×{mult}"
+    },
+    "later": "Şimdi değil",
+    "loading": "Reklam yükleniyor…",
+    "unavailable": "Şu an reklam yok — biraz sonra tekrar dene",
+    "blocked": "Reklam bonusları kullanılamıyor: reklamlar engellenmiş gibi görünüyor",
+    "break": {
+      "notice": "Reklam başlıyor: {n}…",
+      "paused": "Oyun duraklatıldı"
+    },
+    "fake": "Reklam (test)"
+  },
+  "iap": {
+    "title": "Mağaza",
+    "loading": "Ürünler yükleniyor…",
+    "unavailable": "Mağaza şu an kullanılamıyor",
+    "owned": "Alındı",
+    "done": "Satın alındı: {name}",
+    "delivered": "Satın alım hesabına eklendi: {name}",
+    "failed": "Satın alma tamamlanamadı",
+    "list": {
+      "no_ads": {
+        "name": "Reklamsız",
+        "desc": "Reklam aralarını ve banner’ı kaldırır. Reklam bonusları kalır; istersen izlersin."
+      },
+      "income_x2": {
+        "name": "Kalıcı Gelir ×2",
+        "desc": "Sunucuların geliri tüm turlarda iki katına çıkar; çevrimdışı gelir de."
+      },
+      "time_skip_4h": {
+        "name": "Zaman Atlaması",
+        "desc": "Anında {time} değerinde sunucu geliri: {amount}."
+      }
+    },
+    "needIncome": "Önce donanım satın al: sunucular henüz hiçbir şey kazanmıyor",
+    "loginHint": "Hesabına giriş yap — satın alımların ve ilerlemen tüm cihazlarında kalsın",
+    "login": "Giriş yap"
+  }
+}

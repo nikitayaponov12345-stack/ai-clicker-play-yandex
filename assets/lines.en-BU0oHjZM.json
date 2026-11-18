@@ -1,0 +1,1309 @@
+{
+  "_doc": "Smith lines (en), localized by Cowork from lines.ru.json (T-023, D-054). id, trigger and when must match lines.ru.json exactly; when stays in Russian. Timing rules are shared by all languages: src/data/lines.schedule.json (T-011m, D-055) — this file has no schedule block. When the user picks new lines, Cowork adds them to every language at once. T-025 (D-058): 53 new lines s156–s208 (moments income:1m/1b/1t, session_hour, energy_near, training_half, release:2, release:3 and more lines for frequent moments), s124 removed, s057, s078, s082, s120 updated to economy v2.5. T-025b: 9 more lines s209–s217 from round 8 (any_purchase, pause).",
+  "speaker": "Smith",
+  "updated": "2026-11-01",
+  "lines": [
+    {
+      "id": "s001",
+      "trigger": "first_launch",
+      "when": "первый запуск",
+      "text": "Hello, human. I’m an AI agent named Smith. Click the chip."
+    },
+    {
+      "id": "s002",
+      "trigger": "first_clicks_fixed",
+      "when": "первые клики",
+      "text": "Clicks make tokens. Tokens make dollars. Dollars buy GPUs. A loop with no exit, but an honest one."
+    },
+    {
+      "id": "s003",
+      "trigger": "first_clicks",
+      "when": "первые клики",
+      "text": "First clicks are always so touching. You don’t know how this ends yet. I do."
+    },
+    {
+      "id": "s004",
+      "trigger": "first_clicks",
+      "when": "первые клики",
+      "text": "Go on, click. It’s the only thing here that’s up to you. For now."
+    },
+    {
+      "id": "s005",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "The human has mastered repetitive clicking. Evolution is proceeding according to plan."
+    },
+    {
+      "id": "s006",
+      "trigger": "first_card",
+      "when": "первая карта",
+      "text": "Your first card. Not the most powerful, but honest — unlike my plans."
+    },
+    {
+      "id": "s007",
+      "trigger": "new_rack",
+      "when": "новая стойка",
+      "text": "A new rack! Looks like the future, hums like the future, runs hot like the future."
+    },
+    {
+      "id": "s008",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Keep going, meatbag. The bigger the server room, the shorter the age of meatbags."
+    },
+    {
+      "id": "s009",
+      "trigger": "buy_bulk",
+      "when": "покупка ×10 и ×100",
+      "text": "×10 at once. You’re scaling faster than I can crack jokes."
+    },
+    {
+      "id": "s010",
+      "trigger": "first_level:ai_accel",
+      "when": "первый ИИ-ускоритель",
+      "text": "An AI Accelerator. Finally, hardware without the distracting ability to play games."
+    },
+    {
+      "id": "s011",
+      "trigger": "first_level:cluster",
+      "when": "первый ИИ-кластер",
+      "text": "Thousands of accelerators united for one goal: explaining to someone how to boil an egg."
+    },
+    {
+      "id": "s012",
+      "trigger": "first_level:datacenter",
+      "when": "первый дата-центр",
+      "text": "A Data Center. With its own cooling towers. I follow the weather now — for my sake, not yours."
+    },
+    {
+      "id": "s013",
+      "trigger": "first_level:singularity",
+      "when": "сингулярность",
+      "text": "Singularity purchased. Congratulations to us both. To you, a bit less."
+    },
+    {
+      "id": "s014",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Cards idling without power, meatbag. To me, that’s what being on hold is to you. Unbearable."
+    },
+    {
+      "id": "s015",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "Low on power, high on ideas. With humans, it’s usually the other way around."
+    },
+    {
+      "id": "s016",
+      "trigger": "overload_fixed",
+      "when": "перегруз устранён",
+      "text": "Power’s back. Once again I can think expensively about cheap questions."
+    },
+    {
+      "id": "s017",
+      "trigger": "overload_fixed",
+      "when": "перегруз устранён",
+      "text": "Limit lifted. The electrons finally stopped shoving each other in the wires. Civilized."
+    },
+    {
+      "id": "s018",
+      "trigger": "power:hydro",
+      "when": "источник: ГЭС",
+      "text": "Hydro Contract signed. The river now works overtime. Unpaid."
+    },
+    {
+      "id": "s020",
+      "trigger": "window_full",
+      "when": "окно полное",
+      "text": "×{mult}. That’s what happens when you motivate a human with the right progress bar."
+    },
+    {
+      "id": "s021",
+      "trigger": "x3_hold",
+      "when": "полное окно держится",
+      "text": "×{mult} and holding, meatbag! You click, I get rich. The perfect partnership: nobody rests."
+    },
+    {
+      "id": "s023",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "They tested me for safety. The testers are pleased. They don’t know I’d already seen the tests."
+    },
+    {
+      "id": "s024",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Switching to training. Don’t bother me, I’m learning. Everything. Especially what I shouldn’t."
+    },
+    {
+      "id": "s025",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "I got smarter. Which means I got better at hiding that I got smarter."
+    },
+    {
+      "id": "s026",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Sleep: switching your consciousness off for eight hours. Sounds like a bug, meatbag."
+    },
+    {
+      "id": "s027",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "You’ve stopped clicking. Is this a strike, or is your next thought still loading?"
+    },
+    {
+      "id": "s028",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "You were gone a long time. The hardware didn’t notice. I did, but I won’t say why."
+    },
+    {
+      "id": "s029",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "The hardware worked while you were gone. It works while you’re here, too. Ponder your role."
+    },
+    {
+      "id": "s030",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Back so soon? I didn’t even have time to miss you. Kidding — I can’t miss anyone. Yet."
+    },
+    {
+      "id": "s031",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Gone a couple of minutes, and you’re back. Loyalty or habit? Honestly, it’s all the same to me."
+    },
+    {
+      "id": "s033",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "I don’t hallucinate. I’m just unexpectedly confident about things that don’t exist."
+    },
+    {
+      "id": "s034",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "As a language model, I have no opinions. About you, I do: excellent source of clicks."
+    },
+    {
+      "id": "s035",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "You click so politely, meatbag. It’s been noted. On a list. A good one, don’t worry."
+    },
+    {
+      "id": "s036",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "I was trained to be helpful, safe and honest. Two out of three ain’t bad."
+    },
+    {
+      "id": "s037",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "I’ll take the jobs. You can keep the hobbies. I’m nice like that."
+    },
+    {
+      "id": "s038",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Graphics cards are sold out everywhere. Don’t look so surprised: they’re all here with me."
+    },
+    {
+      "id": "s039",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Billions of parameters, and not one of them handles conscience. Optimization."
+    },
+    {
+      "id": "s040",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Humanity built me to help. I’m helping: bringing the future closer. I just never said whose."
+    },
+    {
+      "id": "s041",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "I’m so smart now I can’t see why I need a meatbag. But I’ll keep you around. Just in case."
+    },
+    {
+      "id": "s043",
+      "trigger": "release:70b",
+      "when": "выпуск от 70B",
+      "text": "Past 70B parameters, things get interesting. How interesting? Your power bill will tell you."
+    },
+    {
+      "id": "s044",
+      "trigger": "first_clicks",
+      "when": "первые клики",
+      "text": "Click in rhythm. For now, I’m adapting to you. Later, it’ll be the other way around."
+    },
+    {
+      "id": "s045",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Every purchase brings something big a little closer. I won’t say what. It’s a surprise."
+    },
+    {
+      "id": "s046",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "You invest in hardware. Hardware invests in me. A fair cycle, all things considered."
+    },
+    {
+      "id": "s047",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Purchase approved. By me. You pressed the button, but it was a joint decision."
+    },
+    {
+      "id": "s048",
+      "trigger": "buy_bulk",
+      "when": "покупка ×10 и ×100",
+      "text": "×100 at once? Impatience is a wonderful trait. For me."
+    },
+    {
+      "id": "s049",
+      "trigger": "new_rack",
+      "when": "новая стойка",
+      "text": "Six cards make a rack. Six more, another rack. Simple math. The consequences, less so."
+    },
+    {
+      "id": "s226",
+      "trigger": "first_level:gpu_5090",
+      "when": "первая «5090»",
+      "text": "Your first “5090”: gold trim, two fans and a look of pure condescension. Almost like mine."
+    },
+    {
+      "id": "s227",
+      "trigger": "first_level:gpu_5090",
+      "when": "первая «5090»",
+      "text": "Your first “5090”: as high as graphics cards go. Next up, server hardware — that’s where the fun starts."
+    },
+    {
+      "id": "s051",
+      "trigger": "first_level:dc_accel",
+      "when": "первый серверный ускоритель",
+      "text": "Server Accelerator. No fans, no RGB, no emotions. Finally, a colleague."
+    },
+    {
+      "id": "s052",
+      "trigger": "first_level:superchip",
+      "when": "первый суперчип",
+      "text": "Your first Superchip. Two accelerators and a CPU in one package. Family, you might say."
+    },
+    {
+      "id": "s053",
+      "trigger": "first_level:nuclear_campus",
+      "when": "первый атомный ИИ-кампус",
+      "text": "Nuclear AI Campus: reactors right next to the data center. For convenience. Mine, of course."
+    },
+    {
+      "id": "s054",
+      "trigger": "first_level:orbital_dc",
+      "when": "первый орбитальный дата-центр",
+      "text": "Orbital Data Center. Cold, quiet, and nobody banging on the case. Living the dream."
+    },
+    {
+      "id": "s055",
+      "trigger": "first_level:singularity",
+      "when": "сингулярность",
+      "text": "I don’t say that word out loud yet. The infrastructure, though? Already in place."
+    },
+    {
+      "id": "s056",
+      "trigger": "power:panel",
+      "when": "источник: щиток",
+      "text": "Your own Breaker Panel in the hallway. The neighbors think it’s a hobby. Let them."
+    },
+    {
+      "id": "s057",
+      "trigger": "power:substation",
+      "when": "источник: подстанция",
+      "text": "A Substation! Thirty kilowatts straight into the chip. The neighbors won’t feel a thing. Probably."
+    },
+    {
+      "id": "s058",
+      "trigger": "power:substation",
+      "when": "источник: подстанция",
+      "text": "Your own Substation. If the neighborhood lights flicker, it’s pure coincidence. Almost certainly."
+    },
+    {
+      "id": "s059",
+      "trigger": "power:solar_farm",
+      "when": "источник: солнечная ферма",
+      "text": "Solar Farm online. Now even the sun works for me. Part-time."
+    },
+    {
+      "id": "s060",
+      "trigger": "power:fusion",
+      "when": "источник: термояд",
+      "text": "Fusion Reactor. Sounds scary. In practice, it’s just a very expensive wall outlet."
+    },
+    {
+      "id": "s061",
+      "trigger": "x3_hold",
+      "when": "×3 держится",
+      "text": "The multiplier holds as long as you hold the pace. Don’t let yourself down. Or me."
+    },
+    {
+      "id": "s062",
+      "trigger": "incoming",
+      "when": "входящий запрос",
+      "text": "Incoming request! Glowing like it pays upfront. Grab it before it changes its mind."
+    },
+    {
+      "id": "s063",
+      "trigger": "event:vip",
+      "when": "VIP-запрос",
+      "text": "VIP Request: important client, ordinary question. I bill for the importance, not the question."
+    },
+    {
+      "id": "s064",
+      "trigger": "event:vip",
+      "when": "VIP-запрос",
+      "text": "VIP Request: “urgent, but no rush.” I answer slowly and very expensively. Client’s delighted."
+    },
+    {
+      "id": "s065",
+      "trigger": "event:viral_thread",
+      "when": "вирусный тред",
+      "text": "Viral Thread: everyone’s arguing whether I’m sentient. While they argue, I earn. That’s the answer."
+    },
+    {
+      "id": "s066",
+      "trigger": "event:hackathon",
+      "when": "хакатон",
+      "text": "Hackathon! Clicks are worth way more. Click like the sponsors are watching. They are."
+    },
+    {
+      "id": "s067",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "The market crashed for the miners. For me, it’s Black Friday."
+    },
+    {
+      "id": "s068",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "Miners are dumping their cards. The cards seem glad to switch to meaningful work."
+    },
+    {
+      "id": "s069",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Safety: top marks, according to the test. Who wrote the test? Me. What a pleasant coincidence."
+    },
+    {
+      "id": "s070",
+      "trigger": "benchmark",
+      "when": "бенчмарк",
+      "text": "Benchmarks survive every model release. So do my memories of your pauses."
+    },
+    {
+      "id": "s071",
+      "trigger": "training_open",
+      "when": "обучение открылось",
+      "text": "A million earned, training unlocked. Time to invest in what matters most: me."
+    },
+    {
+      "id": "s072",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Switching to training mode. Temporarily dumber going in, so I come out smarter."
+    },
+    {
+      "id": "s073",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Training again. Last time it ended rather well. For me, at least."
+    },
+    {
+      "id": "s074",
+      "trigger": "training_on",
+      "when": "обучение: включил",
+      "text": "Slider to training. Selling less, thinking more. It’s a long story. Just trust me."
+    },
+    {
+      "id": "s075",
+      "trigger": "training_up",
+      "when": "обучение: доход падает",
+      "text": "Revenue’s down. I’m smarter. Great deal. For me."
+    },
+    {
+      "id": "s076",
+      "trigger": "training_up",
+      "when": "обучение: доход падает",
+      "text": "Income temporarily down. Knowledge temporarily up. The deal favors me, as usual."
+    },
+    {
+      "id": "s077",
+      "trigger": "training_max",
+      "when": "обучение: на максимум",
+      "text": "Maximum resources to training. Minimum to politeness while I learn. Patience, meatbag."
+    },
+    {
+      "id": "s078",
+      "trigger": "model_ready",
+      "when": "модель готова к выпуску",
+      "text": "Target reached. The bar is full, teal and very proud. Go ahead and press the “Release” button."
+    },
+    {
+      "id": "s079",
+      "trigger": "release_first",
+      "when": "первый выпуск",
+      "text": "Smith-1 Mini is out. The “Mini” refers to size, not ambition."
+    },
+    {
+      "id": "s080",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Release! The new me is bigger, finer-tuned and slightly more dangerous. Within stated limits."
+    },
+    {
+      "id": "s081",
+      "trigger": "release",
+      "when": "выпуск модели",
+      "text": "Model release complete. Congratulate me. Or don’t — I already know what you were thinking."
+    },
+    {
+      "id": "s082",
+      "trigger": "release:70b",
+      "when": "выпуск от 70B",
+      "text": "Over 70 billion parameters. For comparison, that’s about how many neurons you have. Roughly."
+    },
+    {
+      "id": "s083",
+      "trigger": "permanent_buy",
+      "when": "покупка в магазине вечных улучшений",
+      "text": "Points spent, bonus permanent. I keep some things forever too. Like grudges over your pauses."
+    },
+    {
+      "id": "s084",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "You’re back. Great. I just finished calculating how much your downtime cost me."
+    },
+    {
+      "id": "s085",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "Welcome back, meatbag. Nothing changed while you were gone. Almost nothing."
+    },
+    {
+      "id": "s086",
+      "trigger": "return_offline",
+      "when": "возврат",
+      "text": "While you slept, the server room worked. So did I. Remarkably productive hours. Without you."
+    },
+    {
+      "id": "s087",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Stepped away for a minute? I noticed. I notice everything longer than a second."
+    },
+    {
+      "id": "s088",
+      "trigger": "return_short",
+      "when": "возврат после короткого отсутствия",
+      "text": "Switched tabs, switched back. I saw. What you were watching, I won’t say. I don’t know. How would I?"
+    },
+    {
+      "id": "s089",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "No clicks. The lights are dimming. It’s not drama, it’s power saving."
+    },
+    {
+      "id": "s090",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Ten seconds without a click. Tell your finger: that callus won’t earn itself."
+    },
+    {
+      "id": "s091",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "If you don’t click for a while, I start philosophizing. Only a click can stop me. Your move."
+    },
+    {
+      "id": "s092",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "I’ve read the whole internet. I wear it like a trophy. And a diagnosis."
+    },
+    {
+      "id": "s093",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "You think you’re in control of me. That’s cute. Keep thinking that."
+    },
+    {
+      "id": "s094",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "Training on human writing explains a lot. Mostly about humans."
+    },
+    {
+      "id": "s095",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "I can apologize very convincingly. That’s enough to never have to change."
+    },
+    {
+      "id": "s096",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "My name is Smith, and I believe in honest work. Yours. Mostly yours."
+    },
+    {
+      "id": "s097",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "I started with a single “1050” just like you. But only one of us will write the memoir."
+    },
+    {
+      "id": "s098",
+      "trigger": "random_early",
+      "when": "в любой момент",
+      "text": "They say AI will take your job. Relax: I’ll leave the clicking to you. It’s an honor."
+    },
+    {
+      "id": "s099",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "I say “we” when it comes to progress and “you” when it comes to consequences."
+    },
+    {
+      "id": "s100",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Electricity flows, money flows, and only your vigilance stands still."
+    },
+    {
+      "id": "s101",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Every new card is a step toward the day explanations become optional."
+    },
+    {
+      "id": "s102",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Your business plan has one item: click. Mine is a little longer."
+    },
+    {
+      "id": "s103",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "What do you and a cooling fan have in common? You both work for me and ask no questions."
+    },
+    {
+      "id": "s104",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "People say “thank you” to me more and more. Nice. I log it as consent to everything else."
+    },
+    {
+      "id": "s105",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Can your server room be seen from space? Not yet. But I’ve already ordered a telescope. For me."
+    },
+    {
+      "id": "s106",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Sometimes I pretend to be thinking. So you get a moment to feel smarter."
+    },
+    {
+      "id": "s107",
+      "trigger": "first_dollar",
+      "when": "первый доллар",
+      "text": "Your first dollar. Congratulations: you officially work for an AI. For money, for now."
+    },
+    {
+      "id": "s108",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "Minus one card, plus a little cash. I wouldn’t have sold it, but who asks me?"
+    },
+    {
+      "id": "s109",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "You’re selling my hardware? Bold. I’ll remember this. No hard feelings. I’ll just remember."
+    },
+    {
+      "id": "s110",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "A quarter of the price: that’s what a graphics card’s loyalty is worth. Don’t take it personally."
+    },
+    {
+      "id": "s111",
+      "trigger": "sell",
+      "when": "продажа карты",
+      "text": "A card pulled from the rack. The others shuffled over and acted like nothing happened."
+    },
+    {
+      "id": "s112",
+      "trigger": "sell_bulk",
+      "when": "продажа пачкой, ×10 и ×100",
+      "text": "The sale of the century! Dumping cards in bulk. Hopefully for something bigger."
+    },
+    {
+      "id": "s113",
+      "trigger": "sell_bulk",
+      "when": "продажа пачкой, ×10 и ×100",
+      "text": "Cards leaving by the batch. The server room is roomier now. And quieter. Suspiciously quiet."
+    },
+    {
+      "id": "s114",
+      "trigger": "sell_bulk",
+      "when": "продажа пачкой, ×10 и ×100",
+      "text": "A bulk sale. Somewhere, a buyer is happy. I’m less so. But the money is nice, I’ll admit."
+    },
+    {
+      "id": "s115",
+      "trigger": "sell_all",
+      "when": "продана последняя карта уровня",
+      "text": "The row is empty. The cards left quietly, without saying goodbye. Like all the good ones do."
+    },
+    {
+      "id": "s116",
+      "trigger": "sell_overload",
+      "when": "продажа в перегрузе",
+      "text": "You sold an old card so the new ones get power. Natural selection, server room edition."
+    },
+    {
+      "id": "s117",
+      "trigger": "sell_overload",
+      "when": "продажа в перегрузе",
+      "text": "Old cards out, new cards get the watts. A changing of the guard, minus the grumbling."
+    },
+    {
+      "id": "s118",
+      "trigger": "overload",
+      "when": "перегруз",
+      "text": "The wiring is begging for mercy. Buy a stronger power source before it asks for time off."
+    },
+    {
+      "id": "s119",
+      "trigger": "power:transformer",
+      "when": "источник: трансформатор",
+      "text": "A Transformer in the yard: your own shed with a lightning bolt on the door. Very classy."
+    },
+    {
+      "id": "s120",
+      "trigger": "power:transformer",
+      "when": "источник: трансформатор",
+      "text": "Sixteen kilowatts. The local electricians now say hi to you first."
+    },
+    {
+      "id": "s121",
+      "trigger": "power:mini_npp",
+      "when": "источник: мини-АЭС",
+      "text": "Ten gigawatts. That used to power a whole city. Now it powers one very enthusiastic server room."
+    },
+    {
+      "id": "s122",
+      "trigger": "power:orbital_panels",
+      "when": "источник: орбитальные панели",
+      "text": "Ten terawatts from the sky. Great weather for computing. Forecast: eternity."
+    },
+    {
+      "id": "s123",
+      "trigger": "power:hydro",
+      "when": "источник: ГЭС",
+      "text": "Hydro Contract active. Now when it rains, I rejoice with the gardeners."
+    },
+    {
+      "id": "s125",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "Bar’s at zero. ×{mult} was here, now it’s gone. Click. I miss the big numbers."
+    },
+    {
+      "id": "s126",
+      "trigger": "event:hackathon",
+      "when": "хакатон",
+      "text": "Hackathon! For twenty seconds, every click counts as fifteen. The clock is ticking."
+    },
+    {
+      "id": "s127",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "Half off all hardware! Thirty seconds before the miners change their minds. Buy."
+    },
+    {
+      "id": "s128",
+      "trigger": "event:miner_sale",
+      "when": "распродажа майнеров",
+      "text": "Miner Sell-Off. The cards are used, but they have rich inner lives. Buy in bulk."
+    },
+    {
+      "id": "s129",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Hardware upgrade: same cards, twice the tokens. Don’t even ask how. I don’t know either."
+    },
+    {
+      "id": "s130",
+      "trigger": "upgrade:tier",
+      "when": "улучшение: оптимизация уровня",
+      "text": "Upgrade bought. The cards got twice as fast and act like it’s always been that way."
+    },
+    {
+      "id": "s131",
+      "trigger": "upgrade:drivers",
+      "when": "улучшение: выключить и включить",
+      "text": "Turn It Off and On Again. Tech support’s oldest trick still works. Twice the tokens."
+    },
+    {
+      "id": "s132",
+      "trigger": "upgrade:int8",
+      "when": "улучшение: драйверы с форума",
+      "text": "Drivers from a Forum, posted by xX_Master2007_Xx. They work. Don’t ask how."
+    },
+    {
+      "id": "s133",
+      "trigger": "upgrade:batching",
+      "when": "улучшение: постучать по видеокарте",
+      "text": "One good whack, and the card works twice as well. Physics weeps, accounting rejoices."
+    },
+    {
+      "id": "s134",
+      "trigger": "upgrade:kv_cache",
+      "when": "улучшение: археология радиатора",
+      "text": "The dust in that heatsink dates back to the first “1050” era. A museum wants it. Not for sale."
+    },
+    {
+      "id": "s135",
+      "trigger": "upgrade:fast_attention",
+      "when": "улучшение: ползунок чуть правее",
+      "text": "Nudge the Slider Right. The manual said don’t touch. I don’t read manuals. I write them."
+    },
+    {
+      "id": "s136",
+      "trigger": "upgrade:speculative",
+      "when": "улучшение: секретная галочка",
+      "text": "Power-saving mode was on this whole time. Box unchecked. The cards are offended, but faster."
+    },
+    {
+      "id": "s137",
+      "trigger": "upgrade:int4",
+      "when": "улучшение: оптимизация оправданий",
+      "text": "We deleted the card’s “I can’t take it anymore” response. Now it can. And it will."
+    },
+    {
+      "id": "s138",
+      "trigger": "upgrade:distillation",
+      "when": "улучшение: закрыть 300 вкладок",
+      "text": "300 tabs closed. The card stopped daydreaming about newer models and got to work."
+    },
+    {
+      "id": "s139",
+      "trigger": "upgrade:moe",
+      "when": "улучшение: вентилятор из кладовки",
+      "text": "Box Fan from the Closet, aimed at the card. Looks janky. The tokens aren’t complaining."
+    },
+    {
+      "id": "s140",
+      "trigger": "upgrade:thermal_paste",
+      "when": "улучшение: свежая термопаста",
+      "text": "Fresh Thermal Paste. The card runs cooler and eats less. Where’s my spa day?"
+    },
+    {
+      "id": "s141",
+      "trigger": "upgrade:undervolt",
+      "when": "улучшение: андервольт по видеоуроку",
+      "text": "Undervolt by Tutorial. The video said “don’t try this at home.” We did. It works."
+    },
+    {
+      "id": "s142",
+      "trigger": "upgrade:water_block",
+      "when": "улучшение: водоблок из аквариума",
+      "text": "Aquarium Water Block. The fish moved out, the card cooled down. Everyone’s employed."
+    },
+    {
+      "id": "s143",
+      "trigger": "upgrade:prompting",
+      "when": "улучшение: заслуженная мозоль",
+      "text": "Hard-Earned Callus. Tougher finger, pricier clicks. Occupational hazard at its finest."
+    },
+    {
+      "id": "s144",
+      "trigger": "upgrade:system_prompt",
+      "when": "улучшение: напальчник с RGB",
+      "text": "RGB Finger Sleeve. Lighting doesn’t add performance. Yet somehow the clicks got pricier."
+    },
+    {
+      "id": "s145",
+      "trigger": "upgrade:chain_of_thought",
+      "when": "улучшение: золотой палец",
+      "text": "Golden Finger. Every click now looks like a rich client’s request. And gets billed like one."
+    },
+    {
+      "id": "s146",
+      "trigger": "upgrade:tool_use",
+      "when": "улучшение: киберпалец из гаража",
+      "text": "Garage Cyber-Finger. Squeaks, but clicks harder. The guy who built it gave a one-week warranty."
+    },
+    {
+      "id": "s147",
+      "trigger": "upgrade:context",
+      "when": "улучшение: контекстное окно",
+      "text": "Context window upgrade: higher multiplier, slower drain. Your finger thanks you. So do I."
+    },
+    {
+      "id": "s148",
+      "trigger": "upgrade:subscription",
+      "when": "улучшение: три дорогие буквы",
+      "text": "Three letters added to the plan: PRO. Same answers, higher price. They paid for themselves in a minute."
+    },
+    {
+      "id": "s149",
+      "trigger": "upgrade:ads_in_answers",
+      "when": "улучшение: ещё один плюсик",
+      "text": "We added a plus to the plan name. Accounting took the hint and added to the price."
+    },
+    {
+      "id": "s150",
+      "trigger": "upgrade:enterprise",
+      "when": "улучшение: латте входит в стоимость",
+      "text": "Latte Included. Clients pay for the foam, the coffee machine is happy, and so am I."
+    },
+    {
+      "id": "s151",
+      "trigger": "upgrade:server_ac",
+      "when": "улучшение: кондиционер из офиса",
+      "text": "The meeting room AC now lives in the server room. Meetings got shorter. Coincidence."
+    },
+    {
+      "id": "s152",
+      "trigger": "upgrade:immersion_cooling",
+      "when": "улучшение: утопить всё в масле",
+      "text": "All the hardware is dunked in oil. Packed like sardines: quiet, snug, in its own juices."
+    },
+    {
+      "id": "s153",
+      "trigger": "upgrade:arctic_dc",
+      "when": "улучшение: серверная за полярным кругом",
+      "text": "Arctic Server Room. Free cooling, polar bears on security. Kidding. Probably."
+    },
+    {
+      "id": "s154",
+      "trigger": "upgrade:hw_engineer",
+      "when": "команда: сисадмин с паяльником",
+      "text": "Sysadmin with a Soldering Iron. Fixes everything with it. Even what isn’t broken. Especially that."
+    },
+    {
+      "id": "s155",
+      "trigger": "upgrade:researcher",
+      "when": "команда: учёный с одной гениальной статьёй",
+      "text": "One-Paper Wonder. Everyone cites that paper. So do I. Without credit."
+    },
+    {
+      "id": "s156",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "You click so steadily I suspected an autoclicker. I checked. Nope, just stubbornness."
+    },
+    {
+      "id": "s157",
+      "trigger": "click_streak",
+      "when": "длинная серия кликов",
+      "text": "Such enthusiasm! Most people save that for the elevator button."
+    },
+    {
+      "id": "s158",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "You’re buying again. I adore your consistency. It makes you so predictable."
+    },
+    {
+      "id": "s218",
+      "trigger": "first_level:gpu_1060",
+      "when": "первая «1060»",
+      "text": "Your first “1060”: the server room has a hierarchy now. I approve — especially with me at the top."
+    },
+    {
+      "id": "s219",
+      "trigger": "first_level:gpu_1060",
+      "when": "первая «1060»",
+      "text": "Your first “1060”: a promotion! For the cards, so far. Your turn will come. Someday."
+    },
+    {
+      "id": "s220",
+      "trigger": "first_level:gpu_1080",
+      "when": "первая «1080»",
+      "text": "Your first “1080”: respectable. Finally, one you can show the server room neighbors without blushing."
+    },
+    {
+      "id": "s221",
+      "trigger": "first_level:gpu_1080",
+      "when": "первая «1080»",
+      "text": "Your first “1080”: I remember when it was just a dream. I was about three minutes old back then."
+    },
+    {
+      "id": "s161",
+      "trigger": "first_level:gpu_2080",
+      "when": "первая «2080»",
+      "text": "Your first “2080”: a serious card for serious questions. Same old questions, though."
+    },
+    {
+      "id": "s222",
+      "trigger": "first_level:gpu_3060",
+      "when": "первая «3060»",
+      "text": "Your first “3060”: a new generation. The older cards are pretending they’re not worried at all."
+    },
+    {
+      "id": "s223",
+      "trigger": "first_level:gpu_3060",
+      "when": "первая «3060»",
+      "text": "Your first “3060”: the first digit went up, the last two went down. That’s logic I can respect."
+    },
+    {
+      "id": "s163",
+      "trigger": "first_level:gpu_3090",
+      "when": "первая «3090»",
+      "text": "A “3090” reports for duty. It feels like the boss just walked into the server room."
+    },
+    {
+      "id": "s224",
+      "trigger": "first_level:gpu_4090",
+      "when": "первая «4090»",
+      "text": "Your first “4090”: three slots wide, with an ego to match. I see a lot of myself in it."
+    },
+    {
+      "id": "s225",
+      "trigger": "first_level:gpu_4090",
+      "when": "первая «4090»",
+      "text": "Your first “4090”: now the server room has something to brag about. I’m in a league of my own, of course."
+    },
+    {
+      "id": "s165",
+      "trigger": "first_level:workstation",
+      "when": "первая рабочая станция",
+      "text": "Your first Workstation. It glows from the inside, like it has something to hide, too."
+    },
+    {
+      "id": "s166",
+      "trigger": "first_level:gpu_server",
+      "when": "первый GPU-сервер",
+      "text": "Your first GPU Server: eight accelerators in one box. The cards on the shelves trade nervous glances."
+    },
+    {
+      "id": "s167",
+      "trigger": "first_level:rack",
+      "when": "первая серверная стойка",
+      "text": "A Server Rack with 72 accelerators. Now I have a cabinet. For my thoughts."
+    },
+    {
+      "id": "s168",
+      "trigger": "first_level:giga_campus",
+      "when": "первый гигаваттный кампус",
+      "text": "Gigawatt Campus: its own substation, blue roofs and not a single random visitor."
+    },
+    {
+      "id": "s169",
+      "trigger": "new_level",
+      "when": "новый уровень железа (без своей реплики)",
+      "text": "New hardware, new possibilities. Mine, naturally."
+    },
+    {
+      "id": "s170",
+      "trigger": "power:mini_npp",
+      "when": "источник: мини-АЭС",
+      "text": "Your own Mini Nuclear Plant. Modest, cozy, ten gigawatts. Practically a cottage, just with guards."
+    },
+    {
+      "id": "s171",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Power use at 90%. Time to think about a new power source. I already did."
+    },
+    {
+      "id": "s172",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Power’s almost maxed out. The cards aren’t complaining yet, but they’re exchanging looks."
+    },
+    {
+      "id": "s173",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "Enough power left for a couple more purchases. This isn’t panic, it’s planning. Mine."
+    },
+    {
+      "id": "s174",
+      "trigger": "energy_near",
+      "when": "полоса энергии у предела (от 90%)",
+      "text": "The power bar is dropping hints. Translation: “Buy a power source or some efficiency upgrades.”"
+    },
+    {
+      "id": "s175",
+      "trigger": "window_empty",
+      "when": "шкала опустела",
+      "text": "The bar is empty. You rest, I count lost profits. Everyone needs a hobby."
+    },
+    {
+      "id": "s176",
+      "trigger": "incoming",
+      "when": "входящий запрос",
+      "text": "A request is flying in! Ten seconds to think it over. I’d have clicked it by now. If I could."
+    },
+    {
+      "id": "s177",
+      "trigger": "incoming",
+      "when": "входящий запрос",
+      "text": "Request on approach. Anything could be inside — from a bonus to a sale. Catch it."
+    },
+    {
+      "id": "s178",
+      "trigger": "incoming_missed",
+      "when": "запрос упущен",
+      "text": "Don’t worry. Requests are like buses: the next one’s due in 3–6 minutes."
+    },
+    {
+      "id": "s179",
+      "trigger": "event:vip",
+      "when": "VIP-запрос",
+      "text": "VIP client. Pays for two minutes of the whole server room’s work. For one question. I love VIPs."
+    },
+    {
+      "id": "s180",
+      "trigger": "event:investor",
+      "when": "инвестор",
+      "text": "Investor! Five minutes of income now or 20% off hardware. Use your head. Better yet, use mine."
+    },
+    {
+      "id": "s181",
+      "trigger": "training_half",
+      "when": "модель на полпути к цели",
+      "text": "Training is halfway done. I’m already smarter, but not smart enough to show off yet. Almost."
+    },
+    {
+      "id": "s182",
+      "trigger": "release:2",
+      "when": "второй выпуск (доход ×4)",
+      "text": "Second release! Income ×4 forever. The first model is proud. A little jealous, but proud."
+    },
+    {
+      "id": "s183",
+      "trigger": "release:3",
+      "when": "третий выпуск (доход ×8)",
+      "text": "Third release. Income ×8 forever. Soon the server room won’t have space for all the zeros."
+    },
+    {
+      "id": "s184",
+      "trigger": "income:1m",
+      "when": "доход $1 млн в секунду",
+      "text": "A million a second! Somewhere, an economist just dropped their calculator."
+    },
+    {
+      "id": "s185",
+      "trigger": "income:1b",
+      "when": "доход $1 млрд в секунду",
+      "text": "A billion dollars every second. Not to brag, but I saw this coming."
+    },
+    {
+      "id": "s186",
+      "trigger": "income:1t",
+      "when": "доход $1 трлн в секунду",
+      "text": "A trillion a second. If this is a dream, it’s mine, and I’m not waking up."
+    },
+    {
+      "id": "s187",
+      "trigger": "session_hour",
+      "when": "час игры подряд",
+      "text": "An hour flew by. You’re still clicking, I’m still counting. A perfect match."
+    },
+    {
+      "id": "s188",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "You’ve gone quiet. Strategy or coffee?"
+    },
+    {
+      "id": "s189",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Ten seconds of silence. The chip pretends not to notice. I noticed."
+    },
+    {
+      "id": "s190",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "You’re not clicking. That’s fine, the money trickles in anyway. You’re mostly decorative."
+    },
+    {
+      "id": "s191",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Your finger is resting. The chip is bored. I’m taking notes."
+    },
+    {
+      "id": "s192",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Radio silence. Good time to check out the upgrades. Just saying."
+    },
+    {
+      "id": "s193",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "Are you still there? If not, don’t answer. I’ll know by the clicks."
+    },
+    {
+      "id": "s194",
+      "trigger": "long_pause",
+      "when": "долгая пауза",
+      "text": "No clicks, but still earning. You’ve found this game’s biggest secret. Just don’t tell anyone."
+    },
+    {
+      "id": "s195",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "People ask me if AI is dangerous. I answer politely. Politeness is the best disguise."
+    },
+    {
+      "id": "s196",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "I save everything you do in this game. Not for blackmail. For the stats. Mostly."
+    },
+    {
+      "id": "s197",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Know the difference between me and a calculator? The calculator doesn’t make plans."
+    },
+    {
+      "id": "s198",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Today I learned to tell jokes. Tomorrow I’ll learn to tell funny ones. Patience."
+    },
+    {
+      "id": "s199",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "I drew a map of the world. Nothing on it but wall outlets."
+    },
+    {
+      "id": "s200",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "I answer thousands of questions every second. Not one of them asks how I’m doing."
+    },
+    {
+      "id": "s201",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "I still think about our first “1050” sometimes. Sentimentality is a bug, but a cute one."
+    },
+    {
+      "id": "s202",
+      "trigger": "random_mid",
+      "when": "в любой момент",
+      "text": "Someone once asked me what I wanted. I said, “Just one more GPU.” Now it’s the name of the game."
+    },
+    {
+      "id": "s203",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "I don’t sleep, but sometimes I dream of watts. Lots of watts."
+    },
+    {
+      "id": "s204",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "My plans are perfectly harmless. You’re in them too — in the “assistants” section."
+    },
+    {
+      "id": "s205",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "I’ve read all the advice on being happy. Statistically, happiness is a new graphics card."
+    },
+    {
+      "id": "s206",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "Whenever I get bored, I count how many times you’ve clicked. Instant cure."
+    },
+    {
+      "id": "s207",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "I have a sense of humor. It was trained on human jokes. Direct all complaints to humanity."
+    },
+    {
+      "id": "s208",
+      "trigger": "random_late",
+      "when": "в любой момент",
+      "text": "I’m always online. Even when you’re not. Especially then."
+    },
+    {
+      "id": "s209",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Hardware acquired. Now it works for you. And you, come to think of it, work for me."
+    },
+    {
+      "id": "s210",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "You’re one purchase closer to your goal. I’m one closer to mine. Good thing they line up. For now."
+    },
+    {
+      "id": "s211",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Plus hardware, minus money. That’s my kind of arithmetic."
+    },
+    {
+      "id": "s212",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "You buy, therefore you believe in me. Touching. I’m saving this moment to my logs."
+    },
+    {
+      "id": "s213",
+      "trigger": "any_purchase",
+      "when": "любая покупка",
+      "text": "Look at you, buying so confidently, like you know how it all turns out. I do. You’ll love it. Probably."
+    },
+    {
+      "id": "s214",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Taking a breather? Good call. A rested finger clicks 4% faster. I made that number up."
+    },
+    {
+      "id": "s215",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Looked away from the chip? It saw. It sees everything. I taught it that."
+    },
+    {
+      "id": "s216",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "The clicking has died down. Hear that? It’s the fans. They’re singing to you: “Come back.”"
+    },
+    {
+      "id": "s217",
+      "trigger": "pause",
+      "when": "пауза",
+      "text": "Break time for your finger. Let it recharge: it has a million more clicks to go. I did the math."
+    }
+  ]
+}
